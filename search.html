@@ -1,0 +1,335 @@
+<!-- search.html -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>검색 결과</title>
+  <style>
+    :root{
+      /* ✅ 위치 미세조정이 필요하면 여기 숫자만 조금씩 바꾸면 됨 */
+      --title-top: 12%;
+      --title-left: 19%;
+      --title-width: 53%;
+      --title-height: 10%;
+
+      --screen-top: 46%;
+      --screen-left: 14%;
+      --screen-width: 72%;
+      --screen-height: 40%;
+
+      --btn-top: 88%;
+      --btn-left: 18%;
+      --btn-width: 64%;
+      --btn-height: 7.5%;
+    }
+
+    body{
+      margin:0;
+      background:#111;
+      display:grid;
+      place-items:center;
+      min-height:100vh;
+      font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    }
+
+    /* ✅ 배경 PNG를 그대로 한 장 깔고, 그 위에 텍스트/버튼만 올리는 방식 */
+    .stage{
+      width:min(480px, 100vw);
+      aspect-ratio: 1 / 1;              /* 너가 준 이미지가 1:1 정사각형이라 안정적 */
+      position:relative;
+      background-image:url("./bg-search.png");
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+      overflow:hidden;
+    }
+
+    /* ✅ 상단 작은 박스(검색창) 안에 들어갈 제목 */
+    .title{
+      position:absolute;
+      top:var(--title-top);
+      left:var(--title-left);
+      width:var(--title-width);
+      height:var(--title-height);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:800;
+      font-size: clamp(14px, 3.2vw, 20px);
+      color:#111;
+      text-align:center;
+      padding: 0 8px;
+      /* 배경은 이미 PNG에 있으므로 따로 박스 배경 안 깜 */
+      pointer-events:none;
+      user-select:none;
+    }
+
+    /* ✅ 휴대폰 화면(흰 영역) 안쪽에 뜨는 랜덤 문구 */
+    .result{
+      position:absolute;
+      top:var(--screen-top);
+      left:var(--screen-left);
+      width:var(--screen-width);
+      height:var(--screen-height);
+      display:flex;
+      align-items:flex-start;
+      justify-content:flex-start;
+      padding: 18px 16px;
+      box-sizing:border-box;
+      font-weight:800;
+      font-size: clamp(16px, 3.8vw, 22px);
+      line-height:1.35;
+      color:#111;
+      white-space:pre-wrap;
+      overflow:hidden;
+    }
+
+    /* ✅ 하단: 학생기자용 버튼(항상 보임) */
+    .btn{
+      position:absolute;
+      top:var(--btn-top);
+      left:var(--btn-left);
+      width:var(--btn-width);
+      height:var(--btn-height);
+      border:0;
+      border-radius:14px;
+      font-weight:900;
+      font-size: clamp(13px, 3.1vw, 18px);
+      cursor:pointer;
+      background:#111;
+      color:#fff;
+      box-shadow: 0 6px 18px rgba(0,0,0,.25);
+    }
+    .btn:active{ transform: translateY(1px); }
+    .btn.done{
+      background:#666;
+      cursor:default;
+      box-shadow:none;
+    }
+
+    /* ✅ 학생기자 안내 팝업(간단하게) */
+    .modal{
+      position:absolute;
+      inset:0;
+      background: rgba(0,0,0,.45);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:16px;
+      box-sizing:border-box;
+    }
+    .modal.on{ display:flex; }
+
+    .sheet{
+      width:min(360px, 92vw);
+      background:#fff;
+      border-radius:16px;
+      padding:14px;
+      box-sizing:border-box;
+      text-align:center;
+    }
+    .sheet h3{
+      margin:0 0 8px;
+      font-size:18px;
+      font-weight:900;
+    }
+    .sheet p{
+      margin:0 0 12px;
+      font-size:14px;
+      line-height:1.4;
+    }
+    .sheet a{
+      display:inline-block;
+      width:100%;
+      padding:12px 10px;
+      border-radius:14px;
+      background:#111;
+      color:#fff;
+      text-decoration:none;
+      font-weight:900;
+    }
+    .sheet button{
+      margin-top:10px;
+      width:100%;
+      padding:10px;
+      border-radius:14px;
+      border:0;
+      background:#eee;
+      font-weight:800;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage" role="img" aria-label="정보검색 화면">
+    <div class="title" id="title"></div>
+    <div class="result" id="result">로딩 중…</div>
+
+    <button class="btn" id="bonusBtn">추가 검색 인증(학생기자용)</button>
+
+    <!-- 학생기자 인증 안내 -->
+    <div class="modal" id="modal">
+      <div class="sheet">
+        <h3>학생기자 인증</h3>
+        <p>
+          학생기자 토큰 QR을 찍어 인증해 주세요.<br>
+          인증이 완료되면 검색 결과가 1회 더 자동으로 뜹니다.
+        </p>
+        <!-- 토큰 QR이 여는 페이지와 동일하게 만들어도 되고,
+             수업에선 "토큰 QR을 찍기"가 메인이므로 이 링크는 보조용 -->
+        <a id="tokenLink" href="./token.html">토큰 인증 페이지 열기</a>
+        <button id="closeModal">닫기</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  // ✅ 1) 증상 번호 읽기: search.html?s=번호
+  const params = new URLSearchParams(location.search);
+  const s = Number(params.get("s") || "0");
+
+  // ✅ 2) 증상별 제목 (원하면 수정)
+  const TITLES = {
+    1: "검색 결과",
+    2: "검색 결과",
+    3: "검색 결과",
+    4: "검색 결과",
+    5: "검색 결과",
+    6: "검색 결과",
+    7: "검색 결과",
+    8: "검색 결과",
+    9: "검색 결과",
+    10: "검색 결과",
+    11: "검색 결과",
+    12: "검색 결과",
+    13: "검색 결과",
+    14: "검색 결과",
+  };
+
+  // ✅ 3) 증상별 랜덤 문장(최소 2줄 이상)
+  //    여기만 너가 최종 문장으로 채워주면 끝.
+  const LINES = {
+    1: [
+      "예시 문장 1 (1번 증상)",
+      "예시 문장 2 (1번 증상)"
+    ],
+    2: [
+      "예시 문장 1 (2번 증상)",
+      "예시 문장 2 (2번 증상)"
+    ],
+    3: [
+      "예시 문장 1 (3번 증상)",
+      "예시 문장 2 (3번 증상)"
+    ],
+    4: [
+      "예시 문장 1 (4번 증상)",
+      "예시 문장 2 (4번 증상)"
+    ],
+    5: [
+      "예시 문장 1 (5번 증상)",
+      "예시 문장 2 (5번 증상)"
+    ],
+    6: [
+      "예시 문장 1 (6번 증상)",
+      "예시 문장 2 (6번 증상)"
+    ],
+    7: [
+      "예시 문장 1 (7번 증상)",
+      "예시 문장 2 (7번 증상)"
+    ],
+    8: [
+      "예시 문장 1 (8번 증상)",
+      "예시 문장 2 (8번 증상)"
+    ],
+    9: [
+      "예시 문장 1 (9번 증상)",
+      "예시 문장 2 (9번 증상)"
+    ],
+    10: [
+      "예시 문장 1 (10번 증상)",
+      "예시 문장 2 (10번 증상)"
+    ],
+    11: [
+      "예시 문장 1 (11번 증상)",
+      "예시 문장 2 (11번 증상)"
+    ],
+    12: [
+      "예시 문장 1 (12번 증상)",
+      "예시 문장 2 (12번 증상)"
+    ],
+    13: [
+      "예시 문장 1 (13번 증상)",
+      "예시 문장 2 (13번 증상)"
+    ],
+    14: [
+      "예시 문장 1 (14번 증상: 눈 이물감 등)",
+      "예시 문장 2 (14번 증상: 눈 이물감 등)"
+    ],
+  };
+
+  // ✅ 4) 공통 DOM
+  const titleEl = document.getElementById("title");
+  const resultEl = document.getElementById("result");
+  const bonusBtn = document.getElementById("bonusBtn");
+  const modal = document.getElementById("modal");
+  const closeModal = document.getElementById("closeModal");
+  const tokenLink = document.getElementById("tokenLink");
+
+  // ✅ 5) 토큰 인증 후 돌아올 “현재 페이지” 저장 (token.html이 이 주소로 복귀)
+  localStorage.setItem("last_search_url", location.href);
+
+  // ✅ 6) 제목 표시 (검색창 안)
+  titleEl.textContent = TITLES[s] || "검색 결과";
+
+  // ✅ 7) 랜덤 1줄 출력 함수
+  function drawRandomLine(){
+    const list = LINES[s];
+    if(!list || list.length === 0){
+      resultEl.textContent = "이 증상에 대한 검색 문장이 아직 등록되지 않았습니다.";
+      return;
+    }
+    const idx = Math.floor(Math.random() * list.length);
+    resultEl.textContent = list[idx];
+  }
+
+  // ✅ 8) 페이지 진입 시: 자동 1줄 출력
+  drawRandomLine();
+
+  // ✅ 9) 학생기자 “추가 검색” 처리
+  //    token.html이 bonus_granted=1 을 localStorage에 남기면,
+  //    여기서 감지해서 1줄을 추가로 즉시 출력하고 버튼을 사용 완료로 변경.
+  const bonusGranted = localStorage.getItem("bonus_granted") === "1";
+  if (bonusGranted) {
+    // 보너스 1회 자동 출력
+    drawRandomLine();
+
+    // 버튼 사용 완료 표시(가능하면)
+    bonusBtn.textContent = "사용 완료";
+    bonusBtn.classList.add("done");
+    bonusBtn.disabled = true;
+
+    // 플래그 소비
+    localStorage.removeItem("bonus_granted");
+  }
+
+  // ✅ 10) 버튼은 항상 보이되, 이미 사용했으면 토큰 페이지에서 막힘(게임 1회 규칙)
+  bonusBtn.addEventListener("click", () => {
+    // 팝업 열고, 토큰 인증 페이지 링크도 제공(보조 수단)
+    modal.classList.add("on");
+
+    // token.html이 다시 이 페이지로 돌아올 수 있도록 “return”을 달아줌(보조)
+    tokenLink.href = "./token.html?return=" + encodeURIComponent(location.href);
+  });
+
+  closeModal.addEventListener("click", () => {
+    modal.classList.remove("on");
+  });
+
+  // 바깥 클릭 시 닫기
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) modal.classList.remove("on");
+  });
+</script>
+</body>
+</html>
