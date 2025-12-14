@@ -73,9 +73,9 @@
       width:var(--screen-width);
       height:var(--screen-height);
       display:flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+      align-items: flex-start;
+      justify-content: flex-start; /* 🔹 왼쪽 위 기준 */
+      text-align: left;            /* 🔹 읽는 문장 느낌 */
       padding: 18px 16px;
       box-sizing:border-box;
       font-weight:600;
@@ -132,12 +132,12 @@
     }
     .sheet h3{
       margin:0 0 8px;
-      font-size:18px;
+      font-size:16px;
       font-weight:900;
     }
     .sheet p{
       margin:0 0 12px;
-      font-size:14px;
+      font-size:12px;
       line-height:1.4;
     }
     .sheet a{
@@ -322,6 +322,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 </body>
 </html>
+
 
 
 
