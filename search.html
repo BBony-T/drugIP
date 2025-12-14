@@ -161,6 +161,23 @@
       font-weight:800;
       cursor:pointer;
     }
+    #qrWrap{
+      width:100%;
+      box-sizing:border-box;
+      margin: 10px 0 6px;
+    }
+    #qrReader{
+      width:100%;
+      max-width: 320px;
+      margin: 0 auto;
+      border-radius: 14px;
+      overflow:hidden;     /* ✅ 카메라 화면이 둥근 모서리 밖으로 안 나가게 */
+    }
+    #qrMsg{
+      margin-top:10px;
+      font-size:14px;
+      font-weight:800;
+    }
   </style>
 </head>
 <body>
@@ -180,7 +197,11 @@
         </p>
         <!-- 토큰 QR이 여는 페이지와 동일하게 만들어도 되고,
              수업에선 "토큰 QR을 찍기"가 메인이므로 이 링크는 보조용 -->
-        <a id="tokenLink" href="./token.html">토큰 인증 페이지 열기</a>
+        <div id="qrWrap">
+          <div id="qrReader"></div>
+          <div id="qrMsg">학생기자 토큰 QR을 카메라로 비춰주세요.</div>
+        </div>
+
         <button id="closeModal">닫기</button>
       </div>
     </div>
@@ -196,7 +217,88 @@ window.addEventListener("DOMContentLoaded", () => {
   const bonusBtn = document.getElementById("bonusBtn");
   const modal = document.getElementById("modal");
   const closeModal = document.getElementById("closeModal");
-  const tokenLink = document.getElementById("tokenLink");
+
+  // ✅ 학생기자 토큰 QR에 들어있는 "문자열(인증 코드)"를 여기와 일치시키면 인증 성공
+  // 토큰 QR을 만들 때 QR 내용(텍스트)을 아래와 똑같이 넣어줘.
+  const REPORTER_TOKEN = "DRUGIP_REPORTER_TOKEN";
+
+  // ✅ 게임 중 1회 제한(페이지 새로고침해도 유지)
+  const USED_KEY = "reporter_used_once";
+  const qrMsg = document.getElementById("qrMsg");
+
+  let qr = null;
+  let scanning = false;
+
+  function setUsedUI(){
+    bonusBtn.textContent = "사용 완료";
+    bonusBtn.classList.add("done");
+    bonusBtn.disabled = true;
+  }
+
+  // 이미 사용했으면 버튼 미리 잠그기
+  if (localStorage.getItem(USED_KEY) === "1") {
+    setUsedUI();
+  }
+
+  async function startScan(){
+    if (scanning) return;
+    if (localStorage.getItem(USED_KEY) === "1") return;
+
+    qrMsg.textContent = "학생기자 토큰 QR을 카메라로 비춰주세요.";
+    modal.classList.add("on");
+
+    // html5-qrcode 시작
+    if (!qr) qr = new Html5Qrcode("qrReader");
+
+    scanning = true;
+
+    try{
+      await qr.start(
+        { facingMode: "environment" }, // ✅ 후면 카메라
+        { fps: 10, qrbox: { width: 220, height: 220 } },
+        async (decodedText) => {
+          // 스캔 성공 콜백
+          const text = (decodedText || "").trim();
+
+          if (text === REPORTER_TOKEN) {
+            // ✅ 인증 성공 → 추가 1줄 출력 + 사용완료 처리
+            localStorage.setItem(USED_KEY, "1");
+            qrMsg.textContent = "인증 완료! 검색 결과가 1회 더 표시됩니다.";
+
+            drawRandomLine();          // 1줄 더 출력
+            setUsedUI();               // 버튼 사용완료
+
+            // 스캔 종료 + 팝업 닫기
+            await stopScan();
+            modal.classList.remove("on");
+          } else {
+            // ✅ 다른 QR은 실패 처리
+            qrMsg.textContent = "학생기자 토큰 QR만 가능합니다. 다시 비춰주세요.";
+          }
+        },
+        () => {
+          // 스캔 실패(프레임) 콜백은 굳이 안내 안 해도 됨
+        }
+      );
+    } catch(err){
+      scanning = false;
+      qrMsg.textContent = "카메라 권한이 필요합니다. 브라우저 권한을 허용해 주세요.";
+      console.error(err);
+    }
+  }
+
+  async function stopScan(){
+    if (!qr || !scanning) return;
+    try{
+      await qr.stop();
+      await qr.clear();
+    }catch(e){
+      // stop 중 에러는 무시해도 OK
+    }finally{
+      scanning = false;
+    }
+  }
+
 
   // ✅ 마지막 방문 검색 URL 저장(토큰 인증 후 돌아오기용)
   localStorage.setItem("last_search_url", location.href);
@@ -311,17 +413,28 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // ✅ 학생기자 인증 팝업
   bonusBtn.addEventListener("click", () => {
-    modal.classList.add("on");
-    tokenLink.href = "./token.html?return=" + encodeURIComponent(location.href);
+    startScan();
   });
 
-  closeModal.addEventListener("click", () => modal.classList.remove("on"));
-  modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("on"); });
+  closeModal.addEventListener("click", async () => {
+    await stopScan();
+    modal.classList.remove("on");
+  });
+
+  modal.addEventListener("click", async (e) => {
+    if (e.target === modal) {
+      await stopScan();
+      modal.classList.remove("on");
+    }
+  });
+
 });
 </script>
+<script src="https://unpkg.com/html5-qrcode"></script>
 
 </body>
 </html>
+
 
 
 
