@@ -265,7 +265,7 @@ window.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem(USED_KEY, "1");
             qrMsg.textContent = "인증 완료! 검색 결과가 1회 더 표시됩니다.";
 
-            drawRandomLine();          // 1줄 더 출력
+            showBonusLine();          // 1줄 더 출력
             setUsedUI();               // 버튼 사용완료
 
             // 스캔 종료 + 팝업 닫기
@@ -392,19 +392,40 @@ window.addEventListener("DOMContentLoaded", () => {
     ],
   };
 
-  function drawRandomLine() {
+  function pickRandomLine() {
     const list = LINES[s] || ["문장이 아직 등록되지 않았습니다."];
     const idx = Math.floor(Math.random() * list.length);
-    resultEl.textContent = list[idx];
+    return list[idx];
   }
 
-  // ✅ 접속 즉시 1줄 자동 출력
-  drawRandomLine();
+  const mainKey = `search_result_${s}`;
+
+  function showMainLine() {
+    const saved = localStorage.getItem(mainKey);
+
+    if (saved) {
+      resultEl.textContent = saved;
+      return;
+    }  
+
+    const line = pickRandomLine();
+    localStorage.setItem(mainKey, line);
+    resultEl.textContent = line;
+  }  
+
+  function showBonusLine() {
+    const line = pickRandomLine();
+    resultEl.textContent = line;
+  }
+
+  // ✅ 접속 즉시 1줄 출력
+  // 이미 본 증상이면 기존 검색 결과 유지
+  showMainLine();
 
   // ✅ 토큰 인증 성공 후 돌아오면 1줄 추가로 자동 출력 + 버튼 사용완료
   const bonusGranted = localStorage.getItem("bonus_granted") === "1";
   if (bonusGranted) {
-    drawRandomLine();
+    showBonusLine();
     bonusBtn.textContent = "사용 완료";
     bonusBtn.classList.add("done");
     bonusBtn.disabled = true;
