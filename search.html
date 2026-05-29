@@ -210,6 +210,18 @@
 <script>
 window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(location.search);
+  // ✅ 새 게임 시작용 초기화 링크
+  if (params.get("reset") === "1") {
+    localStorage.removeItem("reporter_used_once");
+    localStorage.removeItem("bonus_granted");
+
+    // 증상별 기본 검색 결과 삭제
+    for (let i = 1; i <= 14; i++) {
+      localStorage.removeItem(`search_result_${i}`);
+    }
+
+    alert("새 게임 기록이 초기화되었습니다.");
+  }
   const s = Number(params.get("s") || "0");
 
   const titleEl = document.getElementById("title");
