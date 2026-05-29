@@ -410,19 +410,28 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // ✅ 게임ID + 증상번호별로 검색 결과 저장
   const mainKey = `search_result_${gameId}_${s}`;
-
+  
   function showMainLine() {
-    const saved = localStorage.getItem(mainKey);
+   const list = LINES[s] || ["문장이 아직 등록되지 않았습니다."];
+   const saved = localStorage.getItem(mainKey);
 
-    if (saved) {
-      resultEl.textContent = saved;
-      return;
-    }  
+   // 저장된 문장이 있고, 현재 증상 문장 목록에 포함되어 있으면 그대로 사용
+   if (saved && list.includes(saved)) {
+     resultEl.textContent = saved;
+     return;
+   }
 
-    const line = pickRandomLine();
-    localStorage.setItem(mainKey, line);
-    resultEl.textContent = line;
-  }  
+   // 저장된 문장이 있지만 현재 증상 문장 목록에 없으면 잘못된 저장값이므로 삭제
+   if (saved && !list.includes(saved)) {
+     localStorage.removeItem(mainKey);
+   }
+
+   // 현재 증상에 맞는 문장 중에서 새로 1개 뽑아 저장
+   const line = pickRandomLine();
+   localStorage.setItem(mainKey, line);
+   resultEl.textContent = line;
+  }
+  
 
   function showBonusLine() {
     const list = LINES[s] || ["문장이 아직 등록되지 않았습니다."];
