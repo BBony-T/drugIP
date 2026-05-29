@@ -1,0 +1,91 @@
+<!-- reset.html -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>게임 초기화</title>
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:grid;
+      place-items:center;
+      background:#f6f2ee;
+      font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      color:#111;
+    }
+
+    .box{
+      width:min(360px, 90vw);
+      background:#fff;
+      border-radius:18px;
+      padding:22px 18px;
+      box-shadow:0 8px 24px rgba(0,0,0,.12);
+      text-align:center;
+    }
+
+    h1{
+      margin:0 0 10px;
+      font-size:22px;
+      font-weight:900;
+    }
+
+    p{
+      margin:0 0 18px;
+      font-size:15px;
+      line-height:1.5;
+    }
+
+    button{
+      width:100%;
+      border:0;
+      border-radius:14px;
+      padding:14px 12px;
+      background:#111;
+      color:#fff;
+      font-size:17px;
+      font-weight:900;
+      cursor:pointer;
+    }
+
+    .done{
+      margin-top:14px;
+      font-size:15px;
+      font-weight:800;
+      color:#1b7f3a;
+      display:none;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>게임 기록 초기화</h1>
+    <p>
+      새 게임을 시작하기 전에 누르세요.<br>
+      검색 결과와 학생기자 추가검색 사용 기록이 초기화됩니다.
+    </p>
+
+    <button id="resetBtn">초기화하기</button>
+
+    <div class="done" id="doneMsg">
+      초기화 완료! 새 게임을 시작하세요.
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      // 학생기자 추가검색 사용 기록 삭제
+      localStorage.removeItem("reporter_used_once");
+      localStorage.removeItem("bonus_granted");
+
+      // 증상별 기본 검색 결과 삭제
+      for (let i = 1; i <= 14; i++) {
+        localStorage.removeItem(`search_result_${i}`);
+      }
+
+      document.getElementById("doneMsg").style.display = "block";
+    });
+  </script>
+</body>
+</html>
