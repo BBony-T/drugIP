@@ -210,19 +210,17 @@
 <script>
 window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(location.search);
-  // ✅ 새 게임 시작용 초기화 링크
-  if (params.get("reset") === "1") {
-    localStorage.removeItem("reporter_used_once");
-    localStorage.removeItem("bonus_granted");
-
-    // 증상별 기본 검색 결과 삭제
-    for (let i = 1; i <= 14; i++) {
-      localStorage.removeItem(`search_result_${i}`);
-    }
-
-    alert("새 게임 기록이 초기화되었습니다.");
-  }
   const s = Number(params.get("s") || "0");
+
+  // ✅ 현재 게임 ID 불러오기
+  // reset.html에서 새 게임을 시작할 때마다 새로운 gameId를 만들어줌
+  let gameId = localStorage.getItem("drugip_game_id");
+
+  // ✅ 혹시 reset.html을 거치지 않고 바로 검색 페이지에 들어온 경우를 대비
+  if (!gameId) {
+    gameId = String(Date.now());
+    localStorage.setItem("drugip_game_id", gameId);
+  }
 
   const titleEl = document.getElementById("title");
   const resultEl = document.getElementById("result");
@@ -408,14 +406,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const list = LINES[s] || ["문장이 아직 등록되지 않았습니다."];
     const idx = Math.floor(Math.random() * list.length);
     return list[idx];
-  }
-
-  // ✅ 게임별 저장 ID
-  let gameId = localStorage.getItem("drugip_game_id");
-
-  if (!gameId) {
-    gameId = String(Date.now());
-    localStorage.setItem("drugip_game_id", gameId);
   }
 
   // ✅ 게임ID + 증상번호별로 검색 결과 저장
