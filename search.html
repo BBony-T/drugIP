@@ -426,8 +426,19 @@ window.addEventListener("DOMContentLoaded", () => {
   }  
 
   function showBonusLine() {
-    const line = pickRandomLine();
-    resultEl.textContent = line;
+    const list = LINES[s] || ["문장이 아직 등록되지 않았습니다."];
+
+    // 현재 화면에 떠 있는 문장 = 기본 검색 결과
+    const currentLine = resultEl.textContent;
+
+    // 현재 문장과 다른 후보만 모으기
+    const candidates = list.filter(line => line !== currentLine);
+
+    // 다른 후보가 있으면 그중 랜덤, 없으면 기존 목록에서 랜덤
+    const pool = candidates.length > 0 ? candidates : list;
+
+    const idx = Math.floor(Math.random() * pool.length);
+    resultEl.textContent = pool[idx];
   }
 
   // ✅ 접속 즉시 1줄 출력
