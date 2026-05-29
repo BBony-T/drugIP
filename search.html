@@ -410,7 +410,16 @@ window.addEventListener("DOMContentLoaded", () => {
     return list[idx];
   }
 
-  const mainKey = `search_result_${s}`;
+  // ✅ 게임별 저장 ID
+  let gameId = localStorage.getItem("drugip_game_id");
+
+  if (!gameId) {
+    gameId = String(Date.now());
+    localStorage.setItem("drugip_game_id", gameId);
+  }
+
+  // ✅ 게임ID + 증상번호별로 검색 결과 저장
+  const mainKey = `search_result_${gameId}_${s}`;
 
   function showMainLine() {
     const saved = localStorage.getItem(mainKey);
