@@ -75,17 +75,22 @@
 
   <script>
     document.getElementById("resetBtn").addEventListener("click", () => {
-      // 학생기자 추가검색 사용 기록 삭제
+      // ✅ 학생기자 추가 검색 사용 기록 삭제
       localStorage.removeItem("reporter_used_once");
       localStorage.removeItem("bonus_granted");
 
-      // 증상별 기본 검색 결과 삭제
+      // ✅ 예전 방식으로 저장된 검색 결과 삭제
       for (let i = 1; i <= 14; i++) {
         localStorage.removeItem(`search_result_${i}`);
       }
 
+      // ✅ 새 게임 ID 생성
+      // 이 값이 바뀌면 이전 게임의 검색 결과와 완전히 분리됨
+      localStorage.setItem("drugip_game_id", String(Date.now()));
+
       document.getElementById("doneMsg").style.display = "block";
     });
+    
   </script>
 </body>
 </html>
