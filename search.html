@@ -212,6 +212,40 @@ window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(location.search);
   const s = Number(params.get("s") || "0");
 
+  // ✅ 코드 버전 관리
+  // 검색 저장 방식이나 문장을 수정했을 때 이 숫자를 바꾸면,
+  // 학생 휴대폰에 남아 있던 예전 검색 기록을 자동 정리함
+  const APP_VERSION = "2026-05-29-01";
+
+  const savedVersion = localStorage.getItem("drugip_app_version");
+
+  if (savedVersion !== APP_VERSION) {
+    // 학생기자 사용 기록 삭제
+    localStorage.removeItem("reporter_used_once");
+    localStorage.removeItem("bonus_granted");
+
+    // 예전/새 방식 검색 결과 전부 삭제
+    const keysToRemove = [];
+
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+
+      if (key && key.startsWith("search_result_")) {
+        keysToRemove.push(key);
+      }
+    }
+
+    keysToRemove.forEach((key) => {
+      localStorage.removeItem(key);
+    });
+
+    // 새 게임 ID 생성
+    localStorage.setItem("drugip_game_id", String(Date.now()));
+
+    // 현재 코드 버전 저장
+    localStorage.setItem("drugip_app_version", APP_VERSION);
+  }
+
   // ✅ 현재 게임 ID 불러오기
   // reset.html에서 새 게임을 시작할 때마다 새로운 gameId를 만들어줌
   let gameId = localStorage.getItem("drugip_game_id");
