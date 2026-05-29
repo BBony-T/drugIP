@@ -210,7 +210,19 @@
 <script>
 window.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(location.search);
-  const s = Number(params.get("s") || "0");
+  // ✅ QR 링크 보정
+  // 기존 출력 QR이 search.html?s=1&v=2 처럼 되어 있어도
+  // v 값이 1~14이면 v를 증상 번호로 사용함
+  const rawS = Number(params.get("s") || "0");
+  const rawV = Number(params.get("v") || "0");
+
+  let s = rawS;
+
+  // 이미 출력된 QR 보정용:
+  // s가 1로 고정되어 있고, v가 1~14이면 v를 실제 증상 번호로 본다.
+  if (rawS === 1 && rawV >= 1 && rawV <= 14) {
+    s = rawV;
+  }
 
   // ✅ 코드 버전 관리
   // 검색 저장 방식이나 문장을 수정했을 때 이 숫자를 바꾸면,
