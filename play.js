@@ -196,6 +196,5 @@
     stage.append(panel);
   }
 
-  const fontsReady = document.fonts?.ready || Promise.resolve();
-  Promise.all([...pendingImages, fontsReady]).then(revealStage);
+  Promise.all(pendingImages).then(revealStage);
 })();
