@@ -840,37 +840,73 @@
       "file": "role/role.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "cdcd9b4772d895b496c989690817d2fd56563bebd3dc0a03f9b693d036ac988b"
+      "sha256": "07e7bcc0d681ecb7098aba3aab7a87e33143356c12e0fc2510f597bd2513ecf3",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.01.png"
+      ],
+      "illustration_sha256": [
+        "bf02f1bce118932b7d469f04e9d6261d45596ce8679fef1e56a14703d0b7f775"
+      ]
     },
     {
       "file": "role/role.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6e757219af357d248afbd0ef5d2924d3d0d0354e6d7ae655ff94f298559ac855"
+      "sha256": "6644c189884ef72498ec3f760e64dc077ac8ce7125bb9a2fe77b51b6bae78d86",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.02.png"
+      ],
+      "illustration_sha256": [
+        "9fa7b965984d46fdd069167025efcde9086467d65bda89d1ebc5103c6f9232ce"
+      ]
     },
     {
       "file": "role/role.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c83800bac1ba96deb106cdfe1e168b19bde94a484d7034077f12ea8f994433fa"
+      "sha256": "a5f033cbfe4b6a1c7018df98aae3ad485207c1b623c9f76bc11189100536f737",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.03.png"
+      ],
+      "illustration_sha256": [
+        "68b7b6ebc29515a608e6bef42e3ba2379a25d6bd362be8e2e0ae14dae133f982"
+      ]
     },
     {
       "file": "role/role.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "31ac1d3ec3eba32434b4ac4048b4d4941098e05ce4f403aa3e7d94e0f461bebe"
+      "sha256": "63d18118859b91e8e0ba61581cf6484ce4c42a67ff7e72041892f796ed66ed2f",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.04.png"
+      ],
+      "illustration_sha256": [
+        "65db9501375592621024d0ae24cda103b8463876abe3977c10f2932114e03252"
+      ]
     },
     {
       "file": "role/role.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "279ddf5b9697c9a98be4ae676f236db6b2e452466179e5e18c0b9e731350c5bd"
+      "sha256": "d1fcb22b6768aa4c01636d95830ff8108f7b62c364a5eef847b4217667f2bb2e",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.05.png"
+      ],
+      "illustration_sha256": [
+        "f5297bf03a79a5bc4c8b4a261db70cbe50b082fc4af5394cb98798f1002c0392"
+      ]
     },
     {
       "file": "role/role.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0fac2550329b5f61c1200b71dd725d5297d49ea48649d9e573bf0d37d3a7f228"
+      "sha256": "9d8206c6572bbbd41e0edec8bc99fa877dfa9b8654cd0e13a1486c442839401a",
+      "illustration_sources": [
+        "assets/cards/role/illustrations/role.06.png"
+      ],
+      "illustration_sha256": [
+        "5d52baf751e45d88b0a2237df9956055aa2f324a22ded2bef385fd1ff572e37b"
+      ]
     },
     {
       "file": "role/role.back.png",
