@@ -40,7 +40,13 @@
       "file": "symptom/symptom.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "63f0b6c7119030cebd3be223deeae4ba75993d3c28dede7eadcbf01d9e110394"
+      "sha256": "b742a661a86d395a7d200b944bee5d68dcc622f9b6dbf53c001048c9ab363669",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.A.png"
+      ],
+      "illustration_sha256": [
+        "4f02156ee514ba062b47420a31f1e2ea6c096b53180d91b695479924f2cd2e8a"
+      ]
     },
     {
       "file": "info/info.A.png",
@@ -86,7 +92,13 @@
       "file": "symptom/symptom.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e610013c08855902816183e51d5e4baccb17f61e164c0030b1c20a721b174263"
+      "sha256": "b58146efd8a7812e3bc93217f5cd09ffe57efd44268bf45bbd0bf44c11b46685",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.B.png"
+      ],
+      "illustration_sha256": [
+        "4804c623906237563d2c83d0c917253b730f8e432dbb35019107885113ea35f3"
+      ]
     },
     {
       "file": "info/info.B.png",
@@ -132,7 +144,13 @@
       "file": "symptom/symptom.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "750db182e226db4ab0a8bf271d5eb6b2e909e3db2017e16e7aabac9da507051f"
+      "sha256": "2179ccf8a06e67e3352ea38c1c8dd80ae1ae9bebe12fbf22a9d201ea88334a48",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.C.png"
+      ],
+      "illustration_sha256": [
+        "c25cd4411dfec72a9db8e17da3306ff8102b56bccaf621e5b9bc498ce9757417"
+      ]
     },
     {
       "file": "info/info.C.png",
@@ -178,7 +196,13 @@
       "file": "symptom/symptom.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "bbac5ab41fcf826308164a88f97f4bc7fd78145e43ca86cbf854b135318dace6"
+      "sha256": "822245d7509365120739a5020395ad22ce68d4b153ca57d3b09afef2a36fdf19",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.D.png"
+      ],
+      "illustration_sha256": [
+        "b68a271a95f849ae0085ae23783f498541ddfb742b85586be2e2f293befbf897"
+      ]
     },
     {
       "file": "info/info.D.png",
@@ -224,7 +248,13 @@
       "file": "symptom/symptom.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d4b3b59a5b9872229bd4ff26e2714e267f2c4b24e948e105cbd0a07611c12a59"
+      "sha256": "4f7c98b045e9c2855a307ab87a47b31978df7506fca322421c1e5d315134c16c",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.E.png"
+      ],
+      "illustration_sha256": [
+        "197a5387e37344fae03c3539a3771e0b97dd99adf3505e8f1cd63af8028c79ba"
+      ]
     },
     {
       "file": "info/info.E.png",
@@ -270,7 +300,13 @@
       "file": "symptom/symptom.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ec2740d75b693fca31313b9190ccb59a3d11145585f44d783b8fb469848d6bb7"
+      "sha256": "323e6462188dd47a0d82466e308a751cf80bca9fc8433b19a1e1c2ddbb7447bf",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.F.png"
+      ],
+      "illustration_sha256": [
+        "ab13ac35342364aeae8088e7bdf01b569eb6f0e493ff52690f19df63dc05d5a9"
+      ]
     },
     {
       "file": "info/info.F.png",
@@ -316,7 +352,13 @@
       "file": "symptom/symptom.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2e314c339b15fb4390a8688829cc48746548934d6d2392d330f99c68c039704a"
+      "sha256": "717522745b41d2e422b93cfe1a43ed6491fc35df943a78059aaee963bb0c593c",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.G.png"
+      ],
+      "illustration_sha256": [
+        "a243f4f1f5385315c92bc87f742a3b111ea502d379fe5a9f859fee337fb3e3dd"
+      ]
     },
     {
       "file": "info/info.G.png",
@@ -362,7 +404,13 @@
       "file": "symptom/symptom.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e9e0122b81d7b6c3f86534b54d063dd774204ba19681496668c134d5222be0ef"
+      "sha256": "a1e3be5892b49e4df4a086a8edd2f2b8b0064578cc509221f0ff882e4ee8ffb7",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.H.png"
+      ],
+      "illustration_sha256": [
+        "b1dee1f8207847c3481561016c241c0c2a0f0189b22adf896a762e73d1a60f17"
+      ]
     },
     {
       "file": "info/info.H.png",
@@ -408,7 +456,13 @@
       "file": "symptom/symptom.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e08f083c6e68bdc9752c92a56105d7436cfda77b2579fcc76fbc2c55839967ba"
+      "sha256": "1bd6aa1ad237e2a5d0018a7a5007176d0d09c3aab207394243b43960f1439456",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.I.png"
+      ],
+      "illustration_sha256": [
+        "7bb00f366c955769b0822560d152fc85b0228178ce6b9ebde34782ac7f08c0da"
+      ]
     },
     {
       "file": "info/info.I.png",
@@ -454,7 +508,13 @@
       "file": "symptom/symptom.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ffce09d06981ba255b1052c225ceebcdcd650699d2ec7032f9fd483bce5e88a1"
+      "sha256": "712e843e35fefd25d3ae6e9fdbfe1863a2aa0f504010ed6a6b24182504fcb310",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.J.png"
+      ],
+      "illustration_sha256": [
+        "ca53b92b6a2c34c9c28419a61aa0dc43b2e56a5c95a8f5a19e322dcffca8c6d5"
+      ]
     },
     {
       "file": "info/info.J.png",
@@ -500,7 +560,13 @@
       "file": "symptom/symptom.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0112c947e6c0bb2563ab6428089724b2bba0583f79409f7b914539c0e46ecb36"
+      "sha256": "5798b9cb81a49e34f2ae9235f911d68ba25c0011972e613a0bcb7b349d36a979",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.K.png"
+      ],
+      "illustration_sha256": [
+        "66d84f9eb73824f731d1417b980083e65e29705e98cbd4fb145959f41ee7957f"
+      ]
     },
     {
       "file": "info/info.K.png",
@@ -546,7 +612,13 @@
       "file": "symptom/symptom.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "25c7f3fc1c360affcb9cc18774d94a39cd78f95bff0a3f2008cd9a8e40b7e80a"
+      "sha256": "1ee3af30567167946c436c97b7ebda96b44ac15b9ae57096f1773917775d6f8b",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.L.png"
+      ],
+      "illustration_sha256": [
+        "4978ed69ed5ab85cc5853b2866cf0cd1cbdbb91333afc3377b27c766e3504854"
+      ]
     },
     {
       "file": "info/info.L.png",
@@ -592,7 +664,13 @@
       "file": "symptom/symptom.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "69f36b0ecb815c4c918f5d7534ad51682f271ab62d2be0c5a49a2dbdae8fb28c"
+      "sha256": "4ae536088d7ebdbffe1cdf3df0f4a86b69b68b474540fa64c92104c0718d45dd",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.M.png"
+      ],
+      "illustration_sha256": [
+        "5c3df602501ae533533dc715a951c7b6ac2bc14c27a3ce680596441101d6e344"
+      ]
     },
     {
       "file": "info/info.M.png",
@@ -638,7 +716,13 @@
       "file": "symptom/symptom.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "81baa985216269863194e2c5e3b162f61a4b96603073dc25d01a41f6539e0d70"
+      "sha256": "43153c1c316bafe4d1c6f7d3e9c5dbf1712dd6efc341fdcab6f304949796a763",
+      "illustration_sources": [
+        "assets/cards/symptom/illustrations/symptom.N.png"
+      ],
+      "illustration_sha256": [
+        "25e1245eee4feabfd92ccc6b63e8876a91270da9568389780078d7c4c21cf4f0"
+      ]
     },
     {
       "file": "info/info.N.png",
