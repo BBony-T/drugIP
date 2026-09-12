@@ -599,73 +599,145 @@
       "file": "event/event.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2177c2e118e6cc94b842fb8f4a02a3bc8823fa2dc15687769386c186da210141"
+      "sha256": "6a6b1ca6aeebcb8c730a0e9e1e577eb74cdcda95cbc0b3f619e41520996d45fd",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.01.png"
+      ],
+      "illustration_sha256": [
+        "f4314b9c79499fa48f0cfbca60a3e9f703111010515dd8c5c7c3d4b7cab96ec9"
+      ]
     },
     {
       "file": "event/event.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5d1aa95cd40d4c0d1afcc1ba984c94f8045a210215e7dde46137e130c0b6f6c5"
+      "sha256": "6a82a2267fd05e48c3bf809cddf80d323dc7f8bf8f9d19f15aec7afe9b0a7288",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.02.png"
+      ],
+      "illustration_sha256": [
+        "90787c66110d8685d52677fc58f45b8c7ee95a0bae994a77c20c9f611d6ecd7d"
+      ]
     },
     {
       "file": "event/event.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "13f136385b598b27e239091240f9586d6dba92118cb6cb529d91f11ec9a54cd2"
+      "sha256": "2444c4072c82a38896a3a0f9b7bdc732d8f80e710bec8efaa72664ed8c8a70f1",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.03.png"
+      ],
+      "illustration_sha256": [
+        "f5a732b5f4e60142a7c01e568bc7fa744c373caf10f2f029b92c5a540ee7cff7"
+      ]
     },
     {
       "file": "event/event.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7788a4f5cc479fa664564c4a3aa2501a670b05d5f863b97d4b03069ffd9f4509"
+      "sha256": "2538dc79c838c4a2e87bf96178a17c1a3e88b7c117f2fd843c297dc6ab596f83",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.04.png"
+      ],
+      "illustration_sha256": [
+        "28e69bfda0bab58cb5fa91849b733722fa88141ab1bd6b2f0d90ff29b3c9a706"
+      ]
     },
     {
       "file": "event/event.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "3991e926ac47f726cd2593cd5ab5b7e144f77618d296da3231fdb147d1b3656e"
+      "sha256": "5d1caa86ed0496ed66da76c1c376b082ffed9a2ab66965981cf835b8063c8c16",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.05.png"
+      ],
+      "illustration_sha256": [
+        "7acee5a825dfd789cf420ea8321099b43be1c2ed00d740154b2cb160249a4c86"
+      ]
     },
     {
       "file": "event/event.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1362726dc1cb139e4d8989bd8491a04024652f09c65b9cda4e9c2ac355b549cc"
+      "sha256": "23cb675aa1ea699f5c8aaaa0661f7700557ba48372db451cce9ed63fd6dd47a9",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.06.png"
+      ],
+      "illustration_sha256": [
+        "dd2d7b14431dc7b5015f8bb9337148811e2b43e0182e3464ecc71948d948df39"
+      ]
     },
     {
       "file": "event/event.07.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8cb998bc6db1ce70e1497556a773c92ab5d07ae7355531f11fb88cef826898da"
+      "sha256": "1ad92e27b8171de60575ce6795ae53abe0473d7b06dbc1bff2e5b9a8a31d5278",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.07.png"
+      ],
+      "illustration_sha256": [
+        "1ca0565fd9d95e38de7f3fddda81829d0961cab6305923a46b3816ee75ea727d"
+      ]
     },
     {
       "file": "event/event.08.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7f9a63a3e7dc76f3704896f1faa368a3e82add188c174725a3e8cb6d0d4cc9e3"
+      "sha256": "3ac496f020a75eaa82d3c24c7b0f6b5477e1039d430bee7ddbec6ebfcef58f24",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.08.png"
+      ],
+      "illustration_sha256": [
+        "68367898b8b8eaccd32dcad3c5d73ccc1350db35cc5e6465c3951d606eabc2a1"
+      ]
     },
     {
       "file": "event/event.09.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d6e913cc79d429f40139e65fe8d43fb5bb2225fd2f6c80ea9c600f6bdfcc217f"
+      "sha256": "e4baaea0a3bf2068d66773d91f43639fc01604cf1f7097fd8d4e57214724c357",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.09.png"
+      ],
+      "illustration_sha256": [
+        "6a5689da31b2de18f2727a3efad9161352154b18e3f284cae93d31bc05458119"
+      ]
     },
     {
       "file": "event/event.10.png",
       "width": 750,
       "height": 1050,
-      "sha256": "56ef38bf04ce5757d75624e9c6070fa9a3ec2512678c76e93ed1281b990bce66"
+      "sha256": "fc332da3cf100172f6c6a27536e9f630a733948cb5bab51734b8b5f7f6cf915d",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.10.png"
+      ],
+      "illustration_sha256": [
+        "05efc7faabcc9c54224c33c0984acbe0e408f903898e27a1ce6c8174bce3b9dc"
+      ]
     },
     {
       "file": "event/event.11.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2b6993ace8977635c14b0b84555685704d03aa1d7f88b7f64ee0ed6a8927881c"
+      "sha256": "af22839db55b40a420e93903885f0756bbf87f17a8c3365555a1f758a4f3d819",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.11.png"
+      ],
+      "illustration_sha256": [
+        "024debb17ba8bad2dc1016e34d137f85ca68e48ef635d71f0011492c0858c5a6"
+      ]
     },
     {
       "file": "event/event.12.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0fa3310c242695dcebec2710939579fcdb4ed4c716bb8177d98f9fd3d71d4928"
+      "sha256": "a91b71fd6e119027dcfc26b9e483cdc6c3e031fc6029b0b5833d4e3d1cbbbe27",
+      "illustration_sources": [
+        "assets/cards/event/illustrations/event.12.png"
+      ],
+      "illustration_sha256": [
+        "e0480fae527dd29965c1bab4703110009c5eec5ad89a8b326eba866f9e007f4a"
+      ]
     },
     {
       "file": "event/event.back.png",
