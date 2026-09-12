@@ -12,20 +12,20 @@
   "fonts": [
     {
       "name": "여기어때 잘난체",
-      "usage": "display titles except event cards",
+      "usage": "display titles except event and role cards",
       "license": "commercial use permitted",
       "source": "https://www.goodchoice.kr/font"
     },
     {
       "name": "배달의민족 기랑해랑체",
-      "usage": "event titles and quotes",
+      "usage": "event and role titles and quotes",
       "license": "SIL Open Font License 1.1; commercial use permitted",
       "source": "https://www.woowahan.com/fonts",
       "license_file": "assets/fonts/BMKIRANGHAERANG-LICENSE.md"
     },
     {
       "name": "NanumMyeongjo",
-      "usage": "symptom body and role taglines",
+      "usage": "symptom body",
       "license": "SIL Open Font License",
       "license_file": "assets/fonts/OFL.txt"
     },
@@ -840,7 +840,7 @@
       "file": "role/role.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "07e7bcc0d681ecb7098aba3aab7a87e33143356c12e0fc2510f597bd2513ecf3",
+      "sha256": "a95269afc928514636ed2b5a896caca1662d1a705d4d14976f3bf30159f7bc1d",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.01.png"
       ],
@@ -852,7 +852,7 @@
       "file": "role/role.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6644c189884ef72498ec3f760e64dc077ac8ce7125bb9a2fe77b51b6bae78d86",
+      "sha256": "1391d429a34241feb05ec597523c44dc06754f6540f9d3465fe3532bdb09a7de",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.02.png"
       ],
@@ -864,7 +864,7 @@
       "file": "role/role.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "a5f033cbfe4b6a1c7018df98aae3ad485207c1b623c9f76bc11189100536f737",
+      "sha256": "0f41b58a7e564a2a05b4f65427d03bb203de63d1bdbac7d1caa740870e7d8322",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.03.png"
       ],
@@ -876,7 +876,7 @@
       "file": "role/role.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "63d18118859b91e8e0ba61581cf6484ce4c42a67ff7e72041892f796ed66ed2f",
+      "sha256": "739873b6a37cd1779413d5c8f6fb2206071da133ccfdc0e1e4ceefe224d18b37",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.04.png"
       ],
@@ -888,7 +888,7 @@
       "file": "role/role.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d1fcb22b6768aa4c01636d95830ff8108f7b62c364a5eef847b4217667f2bb2e",
+      "sha256": "0d0c2148d21d6b3b4be294a2cc97e858c2aba31899d98276ff28af70bea9b2ab",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.05.png"
       ],
@@ -900,7 +900,7 @@
       "file": "role/role.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "9d8206c6572bbbd41e0edec8bc99fa877dfa9b8654cd0e13a1486c442839401a",
+      "sha256": "a9f682de0cf6797694b9933f1dadc325d6aa0b20e6520a67cba96abf2b004d52",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.06.png"
       ],
