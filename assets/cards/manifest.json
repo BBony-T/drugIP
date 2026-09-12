@@ -12,9 +12,16 @@
   "fonts": [
     {
       "name": "여기어때 잘난체",
-      "usage": "display titles and event quotes",
+      "usage": "display titles except event cards",
       "license": "commercial use permitted",
       "source": "https://www.goodchoice.kr/font"
+    },
+    {
+      "name": "배달의민족 기랑해랑체",
+      "usage": "event titles and quotes",
+      "license": "SIL Open Font License 1.1; commercial use permitted",
+      "source": "https://www.woowahan.com/fonts",
+      "license_file": "assets/fonts/BMKIRANGHAERANG-LICENSE.md"
     },
     {
       "name": "NanumMyeongjo",
@@ -599,7 +606,7 @@
       "file": "event/event.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ba398876855ed097325bd3c75c927803f8060b6751cfa3901c0be9d7accb7bf9",
+      "sha256": "522abcbd8594f3f9a6338475fbadeab7b1b6261a2cecd72987a4c234498ab0fe",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.01.png"
       ],
@@ -611,7 +618,7 @@
       "file": "event/event.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "db3135ce704da328abd9e8052f83438ee2b5a4d96b6bdb78825ee0cb1d23f6df",
+      "sha256": "f00774ef5e6a8a5bf4bc5eb608b1cdda3257730307344bb106c0d28c12e3e0dc",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.02.png"
       ],
@@ -623,7 +630,7 @@
       "file": "event/event.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "54a36857217a1f5b6df73481bc056c2c9d1e33bd6530c4a8704be9b3ae0db612",
+      "sha256": "14f8cf7c241d5b89e821f57f8237a32c59494626e8d3a50fd67174a15816f9a1",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.03.png"
       ],
@@ -635,7 +642,7 @@
       "file": "event/event.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "89bb5f40637751f73a0a82da39e41ebd614c6aad504e78fb408a0114cfd71e17",
+      "sha256": "cb9fd7973efe182d44ea9df62163bb2c3fec4e0084ac6f3c04005091a163e71e",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.04.png"
       ],
@@ -647,7 +654,7 @@
       "file": "event/event.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e1cb4c47adea4f0352865aff5730e8ae33b7a055e178382504f07d4107b307c7",
+      "sha256": "4790ca5b3771282ae82d27a816aeb2212a7724ad8056c4d86aab1ed7fd11b069",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.05.png"
       ],
@@ -659,7 +666,7 @@
       "file": "event/event.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "735c2b9f5ffd6fbd539e5335ccd4de4babe4254cc8dd7c8602242bf3fd873221",
+      "sha256": "097517343b09d23ab7deb97b2d9352344740beb8d81841b095370591353945f4",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.06.png"
       ],
@@ -671,7 +678,7 @@
       "file": "event/event.07.png",
       "width": 750,
       "height": 1050,
-      "sha256": "4744a8905bd03209afb537b4ca2b603f434d578398e76d3f22b962a9d64e907c",
+      "sha256": "48dc5f8b28f800fc3bc608cb945770cf95d5b06e578b1961b312e3d5d338b6d7",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.07.png"
       ],
@@ -683,7 +690,7 @@
       "file": "event/event.08.png",
       "width": 750,
       "height": 1050,
-      "sha256": "17674c1ee8903303709e97e2a595a53258c7eb4cfde1b9ae5d778d3978452ee6",
+      "sha256": "6650803fd03f3b5614d25613d7bb41e0819dd185c9242ef80709c19f3de007a4",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.08.png"
       ],
@@ -695,7 +702,7 @@
       "file": "event/event.09.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c549c1dcf77cdb8a6f0ec71b5317f04a0c8ebd63d2dda42139fc8f7b86fa017a",
+      "sha256": "426acc4dce8173d03b07f03342ed1b108640f79b60b0f8e152d41803f2684361",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.09.png"
       ],
@@ -707,7 +714,7 @@
       "file": "event/event.10.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2b751c692df8e3f6c704866fa64b1c2d3cc4f5a960c7cbafec71c2b2f4157403",
+      "sha256": "c05b99dc98f30ef99593b58d051ad1b59af63caf3c94c0d995b82c5953db14a4",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.10.png"
       ],
@@ -719,7 +726,7 @@
       "file": "event/event.11.png",
       "width": 750,
       "height": 1050,
-      "sha256": "4bd140eefebd4b993747106ff5ce688391fea6f4968c7585599a908498fbf33f",
+      "sha256": "4b99ea80099ffe195957bbaa1084faebf261d48b7c25204e48d540cf7879b97b",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.11.png"
       ],
@@ -731,7 +738,7 @@
       "file": "event/event.12.png",
       "width": 750,
       "height": 1050,
-      "sha256": "cedf6f1ac596aa726e2522baa00199b22985d58a1bbf1f0fd5ce7a7362dd283e",
+      "sha256": "b0bd73b1cfd0211bce3472d0923499914975bd1078a899b92585ac6895e56236",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.12.png"
       ],
