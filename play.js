@@ -9,6 +9,30 @@
   const sample = Object.hasOwn(data, code) ? data[code] : null;
   const hasScene = sample?.scenes && Object.hasOwn(sample.scenes, step);
   const scene = hasScene ? sample.scenes[step] : null;
+  const pendingImages = [];
+
+  function revealStage() {
+    stage.classList.add("is-ready");
+  }
+
+  function prepareImage(node, src, onLoad) {
+    pendingImages.push(new Promise(resolve => {
+      node.addEventListener("load", async () => {
+        try {
+          await node.decode();
+        } catch (_) {
+          // load가 끝난 이미지는 decode 지원 여부와 관계없이 표시할 수 있다.
+        }
+        if (onLoad) onLoad();
+        resolve();
+      }, { once: true });
+      node.addEventListener("error", () => {
+        node.remove();
+        resolve();
+      }, { once: true });
+      node.src = src;
+    }));
+  }
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -42,16 +66,19 @@
   }
   if (!window.PLAY_DATA) {
     dataError(["장면 데이터 파일"]);
+    revealStage();
     return;
   }
   if (!hasScene) {
     stage.classList.add("error-scene");
     heading("화면을 찾을 수 없어요");
     stage.append(element("p", "error-copy", "QR 주소를 다시 확인해 주세요."));
+    revealStage();
     return;
   }
   if (!scene || typeof scene !== "object") {
     dataError(["장면 데이터"]);
+    revealStage();
     return;
   }
   // CSS 대체 화면이 있으므로 image는 선택 항목이다.
@@ -80,18 +107,18 @@
   } else missing.push("장면 종류");
   if (missing.length) {
     dataError(missing);
+    revealStage();
     return;
   }
   stage.classList.add(`scene-${scene.type}`);
+  document.body.classList.add(`page-scene-${scene.type}`);
   if (scene.result?.length > 110) stage.classList.add("long-copy");
   // 장면 이미지를 넣어도 텍스트와 hotspot 좌표는 동일한 정사각형 stage를 기준으로 한다.
   // 이미지에는 글자/선택지 이름을 넣지 않고, 아래 HTML 오버레이를 유지한다.
   if (scene.image && /^assets\/scenes\/[\w/.-]+\.(png|jpe?g|webp|svg)$/i.test(scene.image) && !scene.image.includes("..")) {
     const background = element("img", "scene-image");
-    background.src = scene.image;
     background.alt = "";
-    background.addEventListener("load", () => stage.classList.add("has-image"));
-    background.addEventListener("error", () => background.remove());
+    prepareImage(background, scene.image, () => stage.classList.add("has-image"));
     stage.append(background);
   }
   if (["choice", "medicine-choice"].includes(scene.type)) {
@@ -126,8 +153,8 @@
   } else if (["hospital", "wait"].includes(scene.type)) {
     stage.append(element("div", "central-panel"));
     const illustration = element("img", "hospital-illustration");
-    illustration.src = scene.type === "hospital" ? "assets/scenes/hospital-care-v1.png" : "assets/scenes/wait-v1.png";
     illustration.alt = "";
+    prepareImage(illustration, scene.type === "hospital" ? "assets/scenes/hospital-care-v1.png" : "assets/scenes/wait-v1.png");
     stage.append(illustration);
     heading(scene.title);
     const effects = element("p", "hospital-effects");
@@ -168,4 +195,7 @@
     if (scene.effects.length) panel.append(element("p", "token-copy", scene.effects.join("\n")));
     stage.append(panel);
   }
+
+  const fontsReady = document.fonts?.ready || Promise.resolve();
+  Promise.all([...pendingImages, fontsReady]).then(revealStage);
 })();

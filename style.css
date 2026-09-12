@@ -2,11 +2,20 @@
 @font-face { font-family: "Scene Myeongjo"; src: url("assets/fonts/NanumMyeongjo-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
 @font-face { font-family: "Scene Myeongjo"; src: url("assets/fonts/NanumMyeongjo-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
 * { box-sizing: border-box; }
-.play-page { margin: 0; min-height: 100vh; background: #ecf1f4; color: #172c3c; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
-.scene-shell { width: min(100%, 760px); margin: 0 auto; padding: 18px 12px; }
+.play-page { margin: 0; min-height: 100vh; min-height: 100dvh; background: #ecf1f4; color: #172c3c; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+.page-scene-choice { background: radial-gradient(ellipse at 12% 12%, #f8cdd8 0 10%, transparent 10.5%), radial-gradient(ellipse at 83% 90%, #edbfcf 0 15%, transparent 15.5%), radial-gradient(circle at 90% 15%, #daedf1 0 5%, transparent 5.5%), linear-gradient(140deg, #84b9d2, #dceafa 52%, #699abe); background-attachment: fixed; }
+.page-scene-healthroom { background: #eddbc5; }
+.page-scene-friend { background: #cfebef; }
+.page-scene-medicine-choice { background: #775b43; }
+.page-scene-hospital { background: #8cc98d; }
+.page-scene-wait { background: #116e9f; }
+.page-scene-medicine-result { background: #000; }
+.scene-shell { width: min(100%, 760px); min-height: 100vh; min-height: 100dvh; margin: 0 auto; padding: 18px 12px; display: flex; flex-direction: column; justify-content: center; }
 .page-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; font-weight: 700; }
-.stage { position: relative; width: 100%; aspect-ratio: 1; isolation: isolate; overflow: hidden; container-type: inline-size; background: #c9e5ed; border-radius: 8px; font-family: "Scene Myeongjo", "Batang", serif; }
+.stage { position: relative; flex: 0 0 auto; width: 100%; aspect-ratio: 1; isolation: isolate; overflow: hidden; container-type: inline-size; background: #c9e5ed; border-radius: 8px; font-family: "Scene Myeongjo", "Batang", serif; }
+.stage.is-loading:not(.is-ready) { visibility: hidden; }
 .scene-choice { background: radial-gradient(ellipse at 12% 12%, #f8cdd8 0 10%, transparent 10.5%), radial-gradient(ellipse at 83% 90%, #edbfcf 0 15%, transparent 15.5%), radial-gradient(circle at 90% 15%, #daedf1 0 5%, transparent 5.5%), linear-gradient(140deg, #84b9d2, #dceafa 52%, #699abe); }
+.page-scene-choice .scene-choice { background: transparent; }
 .central-panel { position: absolute; inset: 11.5% 6.5% 13%; background: #f3f2ee; border: 0.35cqw solid #1b2831; border-radius: 4cqw; box-shadow: 1cqw 1.3cqw 0 #253c492b; }
 .scene-title { position: absolute; margin: 0; display: flex; align-items: center; justify-content: center; text-align: center; word-break: keep-all; font-size: 5cqw; line-height: 1.35; padding: 1%; color: #fff; background: #3c6096; border-radius: 1.8cqw; left: 9.5%; top: 24.5%; width: 81%; height: 11%; box-shadow: -0.35cqw -0.35cqw 0 #0003; }
 .choice-card { position: absolute; background: #315c90; clip-path: polygon(8% 0,92% 0,100% 8%,100% 92%,92% 100%,8% 100%,0 92%,0 8%); display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; text-align: center; padding: 1.2%; }
@@ -106,4 +115,4 @@
 .data-error .scene-title { background: #923827; font-size: 4cqw; }
 .data-error .error-copy { font-size: 2.8cqw; }
 .error-copy { position: absolute; top: 45%; left: 10%; width: 80%; text-align: center; font-family: sans-serif; white-space: pre-line; font-size: 3.3cqw; line-height: 1.8; }
-@media (max-width: 420px) { .scene-shell { padding: 12px 0; } .page-heading { margin-left: 12px; margin-right: 12px; } }
+@media (max-width: 420px) { .scene-shell { padding: 12px 0; } .page-heading { margin-left: 12px; margin-right: 12px; } .stage { border-radius: 0; } }
