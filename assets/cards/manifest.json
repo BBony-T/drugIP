@@ -12,7 +12,7 @@
   "fonts": [
     {
       "name": "여기어때 잘난체",
-      "usage": "display titles",
+      "usage": "display titles and event quotes",
       "license": "commercial use permitted",
       "source": "https://www.goodchoice.kr/font"
     },
@@ -599,43 +599,43 @@
       "file": "event/event.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5146e8f65de45f55e8643f031fda5d0e0bbd1a10cc4444839d1b05e7c496dbbe",
+      "sha256": "ba398876855ed097325bd3c75c927803f8060b6751cfa3901c0be9d7accb7bf9",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.01.png"
       ],
       "illustration_sha256": [
-        "204634720c1a798ee3ca83cbbadce3d5b29df6c9bbaa41e9c02734b317956d54"
+        "f03506dc3a075f53f18c0546fc687767b09c4fa03df70f73296a267fa906487f"
       ]
     },
     {
       "file": "event/event.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1d150504c8741aa1fad18d14cfe9daa204156a5a148418f56add3961bcfd814a",
+      "sha256": "db3135ce704da328abd9e8052f83438ee2b5a4d96b6bdb78825ee0cb1d23f6df",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.02.png"
       ],
       "illustration_sha256": [
-        "e95bae6d194bb1b05f756376d7342f3fae50a75f114488de32dc8625ab988068"
+        "61c99a1ce9adc6b03c89c5452f50f621013c5638eb155195b398761b75186567"
       ]
     },
     {
       "file": "event/event.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0ab79489ebf9daa63cf7c6e92c0a7bfe57ca70e8c9fd9d8886ec9372db7f8492",
+      "sha256": "54a36857217a1f5b6df73481bc056c2c9d1e33bd6530c4a8704be9b3ae0db612",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.03.png"
       ],
       "illustration_sha256": [
-        "53127a427c0eb9f38a05db7d0ffe7887bf4a687aa3fdcf0ed2a724c94fce53ef"
+        "29a377cb86d75522a3044adc3ec17d5751c2011bd4ddf0effc3a86fba520151f"
       ]
     },
     {
       "file": "event/event.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f4b880b48c035ac8be9fc50f96deb5a38fc9ba2d6bfb4f28973a3ef71cf42310",
+      "sha256": "89bb5f40637751f73a0a82da39e41ebd614c6aad504e78fb408a0114cfd71e17",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.04.png"
       ],
@@ -647,79 +647,79 @@
       "file": "event/event.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "98c4cabefbc3d5e79b29025c5cf81860d2f606deb8f229b19811b533c1fb5308",
+      "sha256": "e1cb4c47adea4f0352865aff5730e8ae33b7a055e178382504f07d4107b307c7",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.05.png"
       ],
       "illustration_sha256": [
-        "3bde57bb2d2a878cfb4eb6a1709771d45d70e9b49d9b0038e88fa35c1b099190"
+        "02008df4ffcae0e55582bee8cc572780bd151781d6d44d33c18a8a18018eeed4"
       ]
     },
     {
       "file": "event/event.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "99b444c9f20906efbfc4c366eaec38815e47bb978251a0d85706a7e47b5121fd",
+      "sha256": "735c2b9f5ffd6fbd539e5335ccd4de4babe4254cc8dd7c8602242bf3fd873221",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.06.png"
       ],
       "illustration_sha256": [
-        "2c9066d9d9222957ed4184fb85f9e329d242cec8c691ce6bb4273a49d0082d3e"
+        "182b9c8efef7a1f2c66e400b39d84d73d73a00551dee52698119bc34326e6ee7"
       ]
     },
     {
       "file": "event/event.07.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f166db9cfd80e321fb1dfa7da3348e5979cf2da52155c2d71802da019a91dcda",
+      "sha256": "4744a8905bd03209afb537b4ca2b603f434d578398e76d3f22b962a9d64e907c",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.07.png"
       ],
       "illustration_sha256": [
-        "bd6af8e4bae0d155d9aa9dc5f290bd32666367eb8261285473d5720748ba7f3d"
+        "55b05e82799209f2db6fa780b9f07092e63ca233698ba53f6943efba12e6d1f9"
       ]
     },
     {
       "file": "event/event.08.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5d25041e69976d23806b5312b27bf427812ea3297245f7e1b6bdda1cc863d0e0",
+      "sha256": "17674c1ee8903303709e97e2a595a53258c7eb4cfde1b9ae5d778d3978452ee6",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.08.png"
       ],
       "illustration_sha256": [
-        "86ed499eae372224b8395ffdf6e1037061061ec0e755cbf808f73809b65052d9"
+        "8a151809d92143dc4137943f944b574bf1dbeacdd47d2182236481939439c3d0"
       ]
     },
     {
       "file": "event/event.09.png",
       "width": 750,
       "height": 1050,
-      "sha256": "acdda43d3de1745d9946d44707e78ca92dbbf849f3a146085b709f11d5aa002f",
+      "sha256": "c549c1dcf77cdb8a6f0ec71b5317f04a0c8ebd63d2dda42139fc8f7b86fa017a",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.09.png"
       ],
       "illustration_sha256": [
-        "08ab239510f8fd1f69960daf3b53b9329b72a6bb34673cdb20f37affbe85110c"
+        "ba8ab0711cee0b00199a4cf6ca5d91aec28a597d874c8df5b93484523651ee70"
       ]
     },
     {
       "file": "event/event.10.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6617041c3e2f7042c6caa92499247c298d6c635dc915d229fa4ecab92fce9395",
+      "sha256": "2b751c692df8e3f6c704866fa64b1c2d3cc4f5a960c7cbafec71c2b2f4157403",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.10.png"
       ],
       "illustration_sha256": [
-        "beecbf3579b33ec17b046f80a113b60364b916d54f1b0747f192015e8d121503"
+        "adbbc7579aa61c33e4ce9e11fac58e67a61274a7d750db34445c3983a1e3dd14"
       ]
     },
     {
       "file": "event/event.11.png",
       "width": 750,
       "height": 1050,
-      "sha256": "fe42c174ba17d0e81281141644cfa9daefeab706f58c85a531b6c052808acb93",
+      "sha256": "4bd140eefebd4b993747106ff5ce688391fea6f4968c7585599a908498fbf33f",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.11.png"
       ],
@@ -731,12 +731,12 @@
       "file": "event/event.12.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c56d40e4cfc3875ab839fef0ec7c4f3f092a66a34e512435c055154732b18153",
+      "sha256": "cedf6f1ac596aa726e2522baa00199b22985d58a1bbf1f0fd5ce7a7362dd283e",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.12.png"
       ],
       "illustration_sha256": [
-        "ba8e9b2379576eb148870b039b84b52323e867e8cfc9f416dd216e29bf66ffca"
+        "bc281bc8fbf705c000f464efdb9df03e6d2dd6856c00e8e7bf49a67f7c32f509"
       ]
     },
     {
