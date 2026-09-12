@@ -113,4 +113,15 @@
 .data-error .scene-title { background: #923827; font-size: 4cqw; }
 .data-error .error-copy { font-size: 2.8cqw; }
 .error-copy { position: absolute; top: 45%; left: 10%; width: 80%; text-align: center; font-family: sans-serif; white-space: pre-line; font-size: 3.3cqw; line-height: 1.8; }
-@media (max-width: 420px) { .scene-shell { padding: 12px 0; } .stage { border-radius: 0; } }
+@media (max-width: 600px) {
+  .scene-shell { padding: 12px 0 calc(12px + 8vh); padding-bottom: calc(12px + 8svh); }
+  .stage { width: min(92vw, calc(92vh - 48px)); width: min(92vw, calc(92svh - 48px)); align-self: center; border-radius: 8px; }
+  .page-scene-choice {
+    background:
+      radial-gradient(circle clamp(56px, 16vw, 84px) at 10% 8%, #f8cdd8 99%, transparent 100%),
+      radial-gradient(circle clamp(68px, 20vw, 96px) at 94% 96%, #edbfcf 99%, transparent 100%),
+      radial-gradient(circle clamp(28px, 8vw, 42px) at 92% 16%, #daedf1 99%, transparent 100%),
+      linear-gradient(140deg, #84b9d2, #dceafa 52%, #699abe);
+  }
+  .medicine-result-page .stage { width: min(100vw, 760px); border-radius: 0; }
+}
