@@ -64,7 +64,7 @@
       "file": "info/info-back.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8839d7c0ba32dbee6d7996463d4dad3daa615c004842ba7c44fdc3abcf55c9b6"
+      "sha256": "0cc5fcc0174326a8c1e1dffb359182fd3566bb4a07fedbef02e29249ba794bb1"
     },
     {
       "file": "action/action.A.png",
@@ -86,7 +86,7 @@
       "file": "action/action-back.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "3ae3b4711bb5aa81dc0da07542d521bda84477f531c7c4b72f8fbcb759696600"
+      "sha256": "632bce0a3a21195501e62f6126d7cbf9f9bb2b6471bf8346edca3d01d312a46d"
     },
     {
       "file": "symptom/symptom.B.png",
@@ -116,7 +116,7 @@
       "file": "info/info-back.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ae4d260d0098df3b32fef13bf9c7daa85112f730353cdf8f22226f54c15843e2"
+      "sha256": "0c7490ab85f44a5e4eef6adad1d3243c25374e5357afa911141067a785636baf"
     },
     {
       "file": "action/action.B.png",
@@ -138,7 +138,7 @@
       "file": "action/action-back.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c9dee9f66c2a59ea9dca25da5599f831404bd9c3296c3c09fc3e2ba5453168ba"
+      "sha256": "701bcc0b9480a4437993a889191143b69a7fe3b23a0db924d44d984e6b751414"
     },
     {
       "file": "symptom/symptom.C.png",
@@ -168,7 +168,7 @@
       "file": "info/info-back.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0034068e4777297896558933766188632d01fcf73928b4bcbd50e2f9fb620658"
+      "sha256": "7881182bf6b1353aaf70e130d04067ee035a635eb3d2b049f6d6b4da764c8c4c"
     },
     {
       "file": "action/action.C.png",
@@ -190,7 +190,7 @@
       "file": "action/action-back.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "07cd044c1ee3e099b4d1891dc116b80501799e625c177c85c4d050ad5494b92c"
+      "sha256": "70b15b9ab711148ce8e6abbb893326ec339aab7f555b0cb528aa683d47814ce4"
     },
     {
       "file": "symptom/symptom.D.png",
@@ -220,7 +220,7 @@
       "file": "info/info-back.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "520843c92b8408c4b3cd6525d8db44d38e9cbb079d67c2591ac6f0e844de5dc5"
+      "sha256": "95d27d21e9baad9b2133ae280723155b5c7faee239c73ded93ada394a30738cc"
     },
     {
       "file": "action/action.D.png",
@@ -242,7 +242,7 @@
       "file": "action/action-back.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8c6b2c6b9eb3270321372bbcf536b0a9191a4f15522032bf526b7dcdeecd9a3a"
+      "sha256": "5b495968f95b8240b2950bfd93fc64c630311531e922d7613edb04480f1c7012"
     },
     {
       "file": "symptom/symptom.E.png",
@@ -272,7 +272,7 @@
       "file": "info/info-back.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1fa25ce0e6ee567850cf2df97d155b2b15469719f61c6cd6a58949688acd75ce"
+      "sha256": "1bb5e7cff17bc01f8fb030ee028860c547d4b753aeb5644add659dad0057cac3"
     },
     {
       "file": "action/action.E.png",
@@ -294,7 +294,7 @@
       "file": "action/action-back.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "fb14fc89d73ab7abbcedba320ab641323e84962d80adfef19bdf30c03ce33319"
+      "sha256": "89301af8b39a60871dc85abfd8c2f4a91933c7bac301b9adad3ff281ff6def79"
     },
     {
       "file": "symptom/symptom.F.png",
@@ -324,7 +324,7 @@
       "file": "info/info-back.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "18ea31d250111e9bac888c510d448c7a9e7e45964c56ab9abf27ce165bf46812"
+      "sha256": "72998911fa0f6d60dcf486d986adf7eb57079f268befd6857eb141fbb8eafcc9"
     },
     {
       "file": "action/action.F.png",
@@ -346,7 +346,7 @@
       "file": "action/action-back.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ae60f9b842e51ecb2f2641eb828cf675fa8a41d849fd24b62af098d99d1ba0b2"
+      "sha256": "b359348525c91ec3657cb20c6ad489a405e0593becac0eda0e6210a9f08ec547"
     },
     {
       "file": "symptom/symptom.G.png",
@@ -376,7 +376,7 @@
       "file": "info/info-back.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "12a835aed66c34b4e5bb7d3087e4e7720cbe0b9c9cf69c70f70426408e644dd4"
+      "sha256": "5ef200cd999603dc9b2bcfd1edeee50753f7bfe59aede2502b4d58348b74dc11"
     },
     {
       "file": "action/action.G.png",
@@ -398,7 +398,7 @@
       "file": "action/action-back.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c82094ddf271ca12fcf4910050b38d73ad11946ffdfcf70e86894db7638d61d4"
+      "sha256": "75c8e57741c375073eb6a8e816652aa488ac870724f5504541a174dd9a4e6e0f"
     },
     {
       "file": "symptom/symptom.H.png",
@@ -428,7 +428,7 @@
       "file": "info/info-back.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "b2f06c098382b71d89692e93c19fafbcca14751401db1ab811eb0e78e2de1f16"
+      "sha256": "0856984d7c1c38c652b510010d788f08719baaf4f41f6431c54a85b4b9da0aaf"
     },
     {
       "file": "action/action.H.png",
@@ -450,7 +450,7 @@
       "file": "action/action-back.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "fee7a0a4d50a66278d1c9eeeb8a31fb992375eeb32c675fc0aef6434deed44d2"
+      "sha256": "b922c2098da79fc4b42a356f782cf6479009c40cf5d12906807da20bacc5b4cc"
     },
     {
       "file": "symptom/symptom.I.png",
@@ -480,7 +480,7 @@
       "file": "info/info-back.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "db30eb4acdda9b4eb52a89f0cf68d9954e28f19780234670d7aae8e021ad6b9b"
+      "sha256": "ab4cecaf68fc07668f1e49033a347cafc76c840f32713d8d0eb97ec69b7b2557"
     },
     {
       "file": "action/action.I.png",
@@ -502,7 +502,7 @@
       "file": "action/action-back.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "4a717bc7e8e46e602d9192907a6407bf7666ef0c150aebeb07fcd7b5d1a22cd8"
+      "sha256": "e580b0015b0f86c4f3e25de386735864b660faabff7a326a89df8f380d97e987"
     },
     {
       "file": "symptom/symptom.J.png",
@@ -532,7 +532,7 @@
       "file": "info/info-back.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "eeb18a3d2db09154be5c87cb55cb22347c509ec7512ea7df133c53569c919a54"
+      "sha256": "901c24f1fe65a1bd401b20df8d623db0f3d22d7b40182821ef766061683e2128"
     },
     {
       "file": "action/action.J.png",
@@ -554,7 +554,7 @@
       "file": "action/action-back.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c3bbaac7ebe4b369f99f3408860713308490a95c31831fd955e492ac26aae6d1"
+      "sha256": "dbe3451643e21d27209af60ff628415260ac6025762f434e84b82f717a04337f"
     },
     {
       "file": "symptom/symptom.K.png",
@@ -584,7 +584,7 @@
       "file": "info/info-back.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7ff24ac5db6adbd67b36cb5b6db5a17e62cbeffb23bd7163edfc9dba28964aa3"
+      "sha256": "ccbd7008b3bbd0b6164aaea0556b0ce0c00dab20fbfb37508696eb64549e5a89"
     },
     {
       "file": "action/action.K.png",
@@ -606,7 +606,7 @@
       "file": "action/action-back.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f7e51a872a552db1cf1b69f85e1d710168a23ef992d31a8537b618ed5a41b343"
+      "sha256": "2a445f39beb053a7d991a17b831d9c0b764b1184323aa1153d92323210129f28"
     },
     {
       "file": "symptom/symptom.L.png",
@@ -636,7 +636,7 @@
       "file": "info/info-back.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0c12795c0fd82211467bd9adf2ddf448c35e04c03f79fc110035c108993ef278"
+      "sha256": "b2cba55c3c0eba6b0f8dd582dd358658f088048fdf47f17784a7bfdb76a630e1"
     },
     {
       "file": "action/action.L.png",
@@ -658,7 +658,7 @@
       "file": "action/action-back.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f077399e5fd70c70e5db3f10cb3ec3073a9f3f34c9fb32ab6cc2d1986cc7d1e4"
+      "sha256": "e4d7912019ef6272dc04c0f73236751dc6c0d4a7baa458d72ac390f6cd3cc3ab"
     },
     {
       "file": "symptom/symptom.M.png",
@@ -688,7 +688,7 @@
       "file": "info/info-back.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d320bf1dc8ae7e561d73dc2b0042a9613915a27cf88f8a7a08f324471b0d0c23"
+      "sha256": "97bb5f710c8450cb4ef8d78b7b8d2f97a488da9b0d6c32b6aa694db81c41dc5b"
     },
     {
       "file": "action/action.M.png",
@@ -710,7 +710,7 @@
       "file": "action/action-back.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5936dc5ca504f4eb852a42e206561128489d0b52b3874a0cac9d990b35a2ca54"
+      "sha256": "84f6354c6725aac9b5a14aafbeb174312ea1fa7b592aac82086d7b60cad33832"
     },
     {
       "file": "symptom/symptom.N.png",
@@ -740,7 +740,7 @@
       "file": "info/info-back.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "44e903b441180acfdd4d6b664ae43ae8592bcecfed35a6707fe9b0c47e2c7de0"
+      "sha256": "e90ac443a2045c071617da75bb00c07a5b96eb0eaa9e054a25bf3c189b072f37"
     },
     {
       "file": "action/action.N.png",
@@ -762,13 +762,13 @@
       "file": "action/action-back.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "0c4e77482819a3352ccb1277b6c575667f566b2235969518b5a9495e437c8e6b"
+      "sha256": "02639f9985e97f3739d3be498be2855b7a18f72c0ba9d5a9b9f2e283cd6d6b9b"
     },
     {
       "file": "symptom/symptom.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d9894a2d925b6a6dfd89c15f11a6f9c91bf00f18624ca55b15f3a4daeb064040"
+      "sha256": "48f39e7dd654692e5a6c85b27b66fe9bed4d5d27eccd5a8ded014fcfa16702f6"
     },
     {
       "file": "event/event.01.png",
@@ -918,7 +918,7 @@
       "file": "event/event.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2a16a5c56ad87aeaff72bafc9cae7042440b43540da6453272348e3ed9d1f0af"
+      "sha256": "8acc2602d98d57932b483e2877abc40c2d77d8cb17afc223471ef85431c1527c"
     },
     {
       "file": "role/role.01.png",
@@ -996,7 +996,7 @@
       "file": "role/role.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "b3da9a154f1c590630316e0a01b231a63d69194773126ef1a402fffd7c4c93b1"
+      "sha256": "6e6927918c71932bc59569e4d649257204dd29deb5a25d1ade335ac05bf262ad"
     }
   ]
 }
