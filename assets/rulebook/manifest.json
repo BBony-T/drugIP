@@ -7,7 +7,7 @@
   "dpi": 300,
   "layout_reference": "reference/cards/약물 임파서블 룰북",
   "logo_source": "reference/약물 임파서블 로고.png",
-  "theme": "original health-record and card-file theme; no MiriCanvas retro-game template assets",
+  "theme": "original pixel-game sky, city terrain, beveled UI windows, notebook student sprites and pixel icons; no reference raster assets except approved logo",
   "fonts": [
     {
       "name": "배달의민족 기랑해랑체",
@@ -26,14 +26,14 @@
       "width": 2480,
       "height": 3508,
       "dpi": 300,
-      "sha256": "39bf1daa95366b28616d960d9743d9f7d1ccd6b697abf19ea4d63869ef8ab5b9"
+      "sha256": "367396fd99d608e57d05fb99e8af2597e6798b9efb9a8a1dc97d594dbef3fede"
     },
     {
       "file": "rulebook-2.png",
       "width": 2480,
       "height": 3508,
       "dpi": 300,
-      "sha256": "3d29e3cf22594e8b52abdcb82d6cc20138f2596355e4db1c6cf2de091ad172de"
+      "sha256": "1817ef8fdafd7ff33a5389c54d43650dc14683a6a254dcdb9df6ee5c0bb72837"
     }
   ]
 }
