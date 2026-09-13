@@ -13,13 +13,8 @@
   "fonts": [
     {
       "name": "배달의민족 기랑해랑체",
-      "usage": "time, deck and number labels; creator credit",
+      "usage": "time, deck, number and storage labels; creator credit",
       "license": "SIL Open Font License 1.1"
-    },
-    {
-      "name": "여기어때 잘난체",
-      "usage": "storage labels",
-      "license": "commercial use permitted"
     }
   ],
   "files": [
@@ -35,7 +30,7 @@
       "width": 3508,
       "height": 2480,
       "dpi": 300,
-      "sha256": "e2fbf19f0087a644657459ef247b9fe2e974aac6dc440a93270fce7b9036aa28"
+      "sha256": "fe9dcad5d00bab576649e5b710c5fd3ec449fce55549cd362aa25fec273798aa"
     }
   ]
 }
