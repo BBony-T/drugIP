@@ -1,0 +1,39 @@
+{
+  "page_size": "A4 portrait",
+  "size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "layout_reference": "reference/cards/약물 임파서블 룰북",
+  "logo_source": "reference/약물 임파서블 로고.png",
+  "theme": "original health-record and card-file theme; no MiriCanvas retro-game template assets",
+  "fonts": [
+    {
+      "name": "배달의민족 기랑해랑체",
+      "usage": "section and guide titles",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "name": "맑은 고딕",
+      "usage": "body copy",
+      "license": "rendered output only"
+    }
+  ],
+  "files": [
+    {
+      "file": "rulebook-1.png",
+      "width": 2480,
+      "height": 3508,
+      "dpi": 300,
+      "sha256": "39bf1daa95366b28616d960d9743d9f7d1ccd6b697abf19ea4d63869ef8ab5b9"
+    },
+    {
+      "file": "rulebook-2.png",
+      "width": 2480,
+      "height": 3508,
+      "dpi": 300,
+      "sha256": "3d29e3cf22594e8b52abdcb82d6cc20138f2596355e4db1c6cf2de091ad172de"
+    }
+  ]
+}
