@@ -9,6 +9,18 @@
     105,
     70
   ],
+  "fonts": [
+    {
+      "name": "배달의민족 기랑해랑체",
+      "usage": "student reporter badge title",
+      "license": "SIL Open Font License 1.1; commercial use permitted"
+    },
+    {
+      "name": "여기어때 잘난체",
+      "usage": "coin letter and student reporter badge effect text",
+      "license": "commercial use permitted"
+    }
+  ],
   "qr_source": "reference/cards/학생기자 추가증/학생기자증.jpg",
   "role_illustration_sources": [
     "assets/cards/role/illustrations/role.01.png",
@@ -89,13 +101,13 @@
       "file": "sheets/student-reporter-badge.png",
       "width": 3508,
       "height": 2480,
-      "sha256": "480c740e7c2bf70bd9e056ddf0a68fe24da374d561a7dcfcdc026736b45829eb"
+      "sha256": "fc9f7589cc12d1a3c190549e6e08348916b34fba6e5d268a5eda4ad2364c208a"
     },
     {
       "file": "student-reporter-badge.png",
       "width": 1240,
       "height": 827,
-      "sha256": "055967ee31a25d495ada2571d474429c20a473e3aa3404d54b94fcf5b810cb02"
+      "sha256": "74c22d1192db739e1aca070ac12f45e2e4f99b5b1b6fbf6af1b6178f2cad030a"
     },
     {
       "file": "student-reporter-qr.png",
