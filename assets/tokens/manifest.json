@@ -1,0 +1,107 @@
+{
+  "dpi": 300,
+  "token_diameter_mm": 21,
+  "role_marker_mm": [
+    38,
+    42
+  ],
+  "student_reporter_badge_mm": [
+    105,
+    70
+  ],
+  "qr_source": "reference/cards/학생기자 추가증/학생기자증.jpg",
+  "role_illustration_sources": [
+    "assets/cards/role/illustrations/role.01.png",
+    "assets/cards/role/illustrations/role.02.png",
+    "assets/cards/role/illustrations/role.03.png",
+    "assets/cards/role/illustrations/role.04.png",
+    "assets/cards/role/illustrations/role.05.png",
+    "assets/cards/role/illustrations/role.06.png"
+  ],
+  "files": [
+    {
+      "file": "coin-token.png",
+      "width": 248,
+      "height": 248,
+      "sha256": "6b22350c1e0a2269153a2050f2903f967e15b04390ba942f3230897fa1da5079"
+    },
+    {
+      "file": "heart-token.png",
+      "width": 248,
+      "height": 248,
+      "sha256": "23c1f790c97b58dc04bdc14e4a80b3227c66e5ce1396aca1bcb2697e46234f5f"
+    },
+    {
+      "file": "role-markers/role-marker.01.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "144c217f349b37199ec8c22fe515aa8872d3765b6759e2ce8525a76c3d564a72"
+    },
+    {
+      "file": "role-markers/role-marker.02.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "dd18ee76e2f1fd20604be157ec37a34880cefeb9e72a3fc607ebe6dd0b65d418"
+    },
+    {
+      "file": "role-markers/role-marker.03.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "ee663da5ca4b5e3820e50f488d08de821172c563aa3e085330d9b118523cadc7"
+    },
+    {
+      "file": "role-markers/role-marker.04.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "1937a1f815a046ad3b61e9706ca9d3c578fd4ae839db756f56389e879dbb2332"
+    },
+    {
+      "file": "role-markers/role-marker.05.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "5dcd6bc5279024375e8265e021b5658400ff1afa19040568af12016302199a4d"
+    },
+    {
+      "file": "role-markers/role-marker.06.png",
+      "width": 449,
+      "height": 496,
+      "sha256": "928b8c303e6fa9370e99c64bfd1508c898e42e7f41bf3e7c6fff884316bcc26f"
+    },
+    {
+      "file": "sheets/coin-tokens.png",
+      "width": 3508,
+      "height": 2480,
+      "sha256": "c8d5230e732dd33c20039fbcbf077f033284405a0f480d5d872691f39bfcd530"
+    },
+    {
+      "file": "sheets/heart-coin-tokens.png",
+      "width": 3508,
+      "height": 2480,
+      "sha256": "af4a4803eab0f54964ebc48e912bcbacb70655b891df71ddbeaa87616b216185"
+    },
+    {
+      "file": "sheets/role-markers.png",
+      "width": 3508,
+      "height": 2480,
+      "sha256": "b3386eb5dca79a50fad0bbefe7681d51365bb6176da36e75a6a1f5a54ed70f47"
+    },
+    {
+      "file": "sheets/student-reporter-badge.png",
+      "width": 3508,
+      "height": 2480,
+      "sha256": "6b0be6a6faca231c01248dabdb0490112a5506e172cc239d7c0c71e9d0a867b7"
+    },
+    {
+      "file": "student-reporter-badge.png",
+      "width": 1240,
+      "height": 827,
+      "sha256": "224b5934654a569abfdad4e26e69be34ed872d459a0c69211c72a9616ed9cc8a"
+    },
+    {
+      "file": "student-reporter-qr.png",
+      "width": 106,
+      "height": 106,
+      "sha256": "5653c451190d09428681718e7ecec4d5e00ea0bc31a10dec00cd6e5ceb1d6301"
+    }
+  ]
+}
