@@ -8,8 +8,8 @@
     210
   ],
   "orientation": "landscape",
-  "logo_source": "reference/약물 임파서블 로고.png",
-  "logo_sha256": "a980364f786a647d5ba0a18da10f4ef1b46bcfaa6ecd9965e4e807d7937eb9ea",
+  "logo_source": "reference/약물임파서블 새로고.png",
+  "logo_sha256": "f60e71e5b903146b36a7bc4b6d4edac8a695c797f450c2169e5646ad0d1e6d27",
   "fonts": [
     {
       "name": "배달의민족 기랑해랑체",
@@ -23,14 +23,14 @@
       "width": 3508,
       "height": 2480,
       "dpi": 300,
-      "sha256": "131944e26a09589fac2249e7e5a4df15034ec792fc124e12000e9046c94199e5"
+      "sha256": "2aab792ac5cf86f18f53d9679f24843633041ecb293ab7f108f710caa23b2e47"
     },
     {
       "file": "heart-board.png",
       "width": 3508,
       "height": 2480,
       "dpi": 300,
-      "sha256": "83a3b9949ab780de8a9240e9e5dda80c99d077a84e012228bfb6fd81fef74eec"
+      "sha256": "d2e2df55fe944d0544a7d36aad297f5270e45006b947792ac88ce8fb365d16aa"
     }
   ]
 }

@@ -6,7 +6,7 @@
   ],
   "dpi": 300,
   "layout_reference": "reference/cards/약물 임파서블 룰북",
-  "logo_source": "reference/약물 임파서블 로고.png",
+  "logo_source": "reference/약물임파서블 새로고.png",
   "theme": "original pixel-game sky, city terrain, beveled UI windows, notebook student sprites and pixel icons; no reference raster assets except approved logo",
   "fonts": [
     {
@@ -26,7 +26,7 @@
       "width": 2480,
       "height": 3508,
       "dpi": 300,
-      "sha256": "367396fd99d608e57d05fb99e8af2597e6798b9efb9a8a1dc97d594dbef3fede"
+      "sha256": "794b5360542057d87f1622c71a888606f954e9734f6c49585b5eeca201299fb3"
     },
     {
       "file": "rulebook-2.png",
