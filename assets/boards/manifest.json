@@ -1,0 +1,46 @@
+{
+  "size_px": [
+    3508,
+    2480
+  ],
+  "print_size_mm": [
+    297,
+    210
+  ],
+  "orientation": "landscape",
+  "logo_source": "reference/약물 임파서블 로고.png",
+  "logo_sha256": "a980364f786a647d5ba0a18da10f4ef1b46bcfaa6ecd9965e4e807d7937eb9ea",
+  "fonts": [
+    {
+      "name": "배달의민족 기랑해랑체",
+      "usage": "time, deck and number labels",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "name": "여기어때 잘난체",
+      "usage": "storage labels",
+      "license": "commercial use permitted"
+    },
+    {
+      "name": "Noto Sans KR",
+      "usage": "creator credit",
+      "license": "SIL Open Font License"
+    }
+  ],
+  "files": [
+    {
+      "file": "drug-impossible-board.png",
+      "width": 3508,
+      "height": 2480,
+      "dpi": 300,
+      "sha256": "1a51d1ad1174572254363079195d3c89188b62cf7b9c55c29dbe8818dbd0d4ba"
+    },
+    {
+      "file": "heart-board.png",
+      "width": 3508,
+      "height": 2480,
+      "dpi": 300,
+      "sha256": "65e365046e1a78c6b8aae5d26892dbb4150438926a4e40bbb080e03381558f7f"
+    }
+  ]
+}
