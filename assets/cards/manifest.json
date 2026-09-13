@@ -47,7 +47,7 @@
       "file": "symptom/symptom.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2005e77e4f9e9b750a1bc8edb8518e43df7623c86de70b679acc26c060815930",
+      "sha256": "9eb1e4308cde78525e8e92beb6ad525be176b4cec8160026898160f728de9b53",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.A.png"
       ],
@@ -59,7 +59,7 @@
       "file": "info/info.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "b7fe313f8fe5f1513dabde22df8aaacd348fa6b3eba6ed391b8b26df51e6c75d",
+      "sha256": "6f3f69d69de8d96ebeddaed463895dbbde1a55c1f82edeef41ed680cbba5e95f",
       "qr_sources": [
         "reference/cards/qr/info.A.png"
       ],
@@ -71,13 +71,13 @@
       "file": "info/info-back.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "df73a173b53d6f30393c55547d6412ac6441560dcef2876504becdb0fd56963d"
+      "sha256": "9bee966569347b9269874ae2b5deade8c7511c1297fd2367962a34d3a340bcf5"
     },
     {
       "file": "action/action.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8b9bf0176b0cf4c6a12c0f5623b4be2bb95d6695c37708da9638fc5404870c9b",
+      "sha256": "a8d95bd4802c590a09cb8bda6126a5f4b1ed10de30a1cae297c7be57d1e421d9",
       "qr_sources": [
         "reference/cards/qr/action_medicine.A.png",
         "reference/cards/qr/action_hospital.A.png",
@@ -93,13 +93,13 @@
       "file": "action/action-back.A.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c7a5859125da8cc167e6274e77e25c8bbb73163fc53154931d7509944f1a6c48"
+      "sha256": "d1f8a5f1473cd555ecf3b9e321301056ccecd562c65e1b42cef69cd2e373fdcd"
     },
     {
       "file": "symptom/symptom.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5210d65c839b66543b58c88c9371d10a6d8606e0cba6e5eee513786f88f35ea7",
+      "sha256": "3ce502ce92782a6311b117d670deaba0a17f00a2ba8af2bd68822aa5ac2666b4",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.B.png"
       ],
@@ -111,7 +111,7 @@
       "file": "info/info.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c2042caa3dfdfa9b5b4bf4e3fde6a746a37e68d02c86d50a0a1104b6abfdb7c5",
+      "sha256": "67ef902aec297c92af9b159d9b10fdfb5ddce2d0462687063e418e0bcab5356a",
       "qr_sources": [
         "reference/cards/qr/info.B.png"
       ],
@@ -123,13 +123,13 @@
       "file": "info/info-back.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "193b4c6405122307726683c8c71939b61e5b72fa96fca49a1af7458d27070688"
+      "sha256": "b60b5640fc6b4df680dde3dee94e47532f1de340cd552a2ec5f631f77d648799"
     },
     {
       "file": "action/action.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7c0e0fbd96b5c00ad6e3a37beab9ceeb2e26f01c49d288892924337cee7eb603",
+      "sha256": "b0c1c51d74ec4e2bd8d974150e30a9595d8e0a1f10fbe02a4db7ff8c94613a0a",
       "qr_sources": [
         "reference/cards/qr/action_medicine.B.png",
         "reference/cards/qr/action_hospital.B.png",
@@ -145,13 +145,13 @@
       "file": "action/action-back.B.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7b76f87b7f4a76807e55bc7bbf730cf8af53eb3f4032976a53363ca73a385027"
+      "sha256": "6e293171d0a5ceb085915ea3fe6fb047e0ace463b857b096f43a74749a80d31d"
     },
     {
       "file": "symptom/symptom.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f53cf81be9fe2a3672398c97672ef44ccc6a551b2c36e1297289625712cb332f",
+      "sha256": "62df8a7dd85fe6e3f10f4e498783636b625e21012f83a7aff78e1ad9e7e5404a",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.C.png"
       ],
@@ -163,7 +163,7 @@
       "file": "info/info.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c297433d9144074975b02edfb03370f03fdcbcb20558f9f99f814aaae1f200e0",
+      "sha256": "80bf34287850feea5dc6e25070bccd86a00ddc7ca64e93a0eb980ab9ac7f955a",
       "qr_sources": [
         "reference/cards/qr/info.C.png"
       ],
@@ -175,13 +175,13 @@
       "file": "info/info-back.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "04f952afcd90675cd8bf47c1602917cca2e3693e5df809c96874137fb46e254a"
+      "sha256": "09308228e7d943318825a380ef4d34abb1b114df63f5f38704d636c17441a560"
     },
     {
       "file": "action/action.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "69189ea0a3a15c080622a7c754e4ffafad8cecf750aab82cdac92f24efe6990f",
+      "sha256": "5e627803d0e2b09881fb399c17b6ec96ed56b8c3ad86908aa900d0ea64e2dc22",
       "qr_sources": [
         "reference/cards/qr/action_medicine.C.png",
         "reference/cards/qr/action_hospital.C.png",
@@ -197,13 +197,13 @@
       "file": "action/action-back.C.png",
       "width": 750,
       "height": 1050,
-      "sha256": "9577d42a042ac4e8daa0cb9324ade4896b379f8af3be385e9812f5450fd3fbea"
+      "sha256": "db505027bfc01374be8bff03a91dac0001e6dd573ac93482f735f669ee1a40cf"
     },
     {
       "file": "symptom/symptom.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "72a1a367f2530859df66b6e177456d80cd22435d1b0d4c38e8ba5f4090ef2352",
+      "sha256": "972908e6991db01189d20d3b022cdef85a2cfa6102d528b715430103ca1ff97d",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.D.png"
       ],
@@ -215,7 +215,7 @@
       "file": "info/info.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ed967a1db45c999b17666f34d6517318fefdcdb1c6008c0e9dd0e7f52a9968cf",
+      "sha256": "0ba947201ca2d5c019a87c22d35044cd0aac04e669a040bf73f762d8747519be",
       "qr_sources": [
         "reference/cards/qr/info.D.png"
       ],
@@ -227,13 +227,13 @@
       "file": "info/info-back.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6f3e5403ea8d51d72f288b7708d7f8cdde60877c266c17d6617f2f42d5f8f6c4"
+      "sha256": "4885b948530f8866c44a3d91880d6a6e910328227663b40b0e2f2151bdc6c423"
     },
     {
       "file": "action/action.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "88bd33c3ca452e205b2a22ca07b954148c4b16dd534b070a785b16fda8fb7154",
+      "sha256": "0b19e665417bdc7eb61b197829e854523efe85375aa453603952c6177652da8b",
       "qr_sources": [
         "reference/cards/qr/action_medicine.D.png",
         "reference/cards/qr/action_hospital.D.png",
@@ -249,13 +249,13 @@
       "file": "action/action-back.D.png",
       "width": 750,
       "height": 1050,
-      "sha256": "4a368671855beae29ef6fe1c05595d21825d3308e110327dee44f8a74317defc"
+      "sha256": "06428af385757a24ad9e16af6941343c3f8a317e4d963a891a1949c498823e76"
     },
     {
       "file": "symptom/symptom.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1cb871872cbd5db1b20eec986ba57a073bbb1ab3f1ef0f4c56fab0e530eab320",
+      "sha256": "059e35c50e51222c6d89a0a58b414596f204bdd9eca6e2027b9e645ff4403901",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.E.png"
       ],
@@ -267,7 +267,7 @@
       "file": "info/info.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "a2bd0bc8cd47156821567daaa6bd4542eab8722e523a29fe9ad7683c64c0923d",
+      "sha256": "899a1fbf34cc8adfdb6213a7d93a75e228b72bcf14d613c3456f8f97c0fdd451",
       "qr_sources": [
         "reference/cards/qr/info.E.png"
       ],
@@ -279,13 +279,13 @@
       "file": "info/info-back.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "bb82e1e214a43dbb2277020f8864a3e94e3009b1bfc1164fd4a92c44ca447fc8"
+      "sha256": "6033d8044285fd57f29227d393cb431e85488e11df5c7a813310fcdc8add6458"
     },
     {
       "file": "action/action.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6bf9e62157b415c71e7c116ff5e9f89a9706b7799061e94f6fd7813273065043",
+      "sha256": "1f04c3848d765a5ac7fc873f4c9add0c8d59b333417c3925d13213ac323078a1",
       "qr_sources": [
         "reference/cards/qr/action_medicine.E.png",
         "reference/cards/qr/action_hospital.E.png",
@@ -301,13 +301,13 @@
       "file": "action/action-back.E.png",
       "width": 750,
       "height": 1050,
-      "sha256": "bfa4bbe5dc101c6483419b8d871198346b747fa26bfba0b1618b1b2ce29c1648"
+      "sha256": "21bf12c8f841f7675f6090065dcc2d846cf6a2b2483375a4b409221dc1bf614a"
     },
     {
       "file": "symptom/symptom.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "32c72c4b51034ecba66e918cd13f905b725ef6cd9da2416520689ad20fc0f24a",
+      "sha256": "c5a251cbc0ecd1d73e9ea23a568c5eb1f0ba7021b31cba516fd8b521899ef2a6",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.F.png"
       ],
@@ -319,7 +319,7 @@
       "file": "info/info.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "510e04c0592f3b1c50934883a6ca15edf0618358178c94db21e701fd19e495fe",
+      "sha256": "43f73d86914ca1806154705b1e7dfd2056d66cbf40f7b928435605f19da7d408",
       "qr_sources": [
         "reference/cards/qr/info.F.png"
       ],
@@ -331,13 +331,13 @@
       "file": "info/info-back.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6c6ec1efe27cc14ad6faee3ded5171ca55f68f9afda783ef42478ed678551104"
+      "sha256": "cb90273bb269154e06743f225cf8bfc52a289530cf7fdb541b6451d44d41ac74"
     },
     {
       "file": "action/action.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "16296c87ad282821bf1d9e1a3c0c989bcc4e2b5855c91c63bab0312ce1368d03",
+      "sha256": "74a55386060b87c3084b8c37ad3268abc7ae2b406fc5b60e7c19812b0da1a38d",
       "qr_sources": [
         "reference/cards/qr/action_medicine.F.png",
         "reference/cards/qr/action_hospital.F.png",
@@ -353,13 +353,13 @@
       "file": "action/action-back.F.png",
       "width": 750,
       "height": 1050,
-      "sha256": "89642f12a4fef6c2f80f59f579b6075c6f11f91de83975d0d9a0536e567945e9"
+      "sha256": "6690bbf3c72edbf20ff78bb6ef55688e321e52f881ce166504538ea34ee30659"
     },
     {
       "file": "symptom/symptom.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "56dcb9d0fd6b2233bf6d800869776b73302573f685a4aa817eb172692f393ee9",
+      "sha256": "b096a634430f4374153a3dad4f2a7dbf16ff73ca8b57c745d45990eca26b9d52",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.G.png"
       ],
@@ -371,7 +371,7 @@
       "file": "info/info.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2ebf3d3bd4157f0a29d5ec0a26e98ea557d34a12e3bcbd0f0dc22e06ce80de38",
+      "sha256": "c64dabece93895021f9a5ebea9dc97440ce776e501ae05c6304d8a0f4e6e37ef",
       "qr_sources": [
         "reference/cards/qr/info.G.png"
       ],
@@ -383,13 +383,13 @@
       "file": "info/info-back.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "667c6574da899735b9952995f8567d344cf8330b99ba1dca7dfb7c611bc3e2b8"
+      "sha256": "84c00d100b16eb0b96ba0cf1324b8387296a37b6ade11c4998cca85b31a201f8"
     },
     {
       "file": "action/action.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "935da0eeec4428b9efde1da8c1994bf125c43369b974b248afcf19d56833f304",
+      "sha256": "947ab00273eecf32d4c7e0d925720bd25aadc127ac2dfe6f002db66bd3870e75",
       "qr_sources": [
         "reference/cards/qr/action_medicine.G.png",
         "reference/cards/qr/action_hospital.G.png",
@@ -405,13 +405,13 @@
       "file": "action/action-back.G.png",
       "width": 750,
       "height": 1050,
-      "sha256": "75adf20a2aaeccc63b264fbf69a3f3349870a71645bea9ba0ebf2684a78701b1"
+      "sha256": "4e5168e494f007043bcd79d722e93659a5ccc31a2ce3ad20891c03552c547931"
     },
     {
       "file": "symptom/symptom.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "a4e9fbdf78ed7374b40a7fa6378a8ca9ef0e5245c0bde408c3c732948b17dbad",
+      "sha256": "b048a10ce9c79135011a7aab251c7f6c21d11396f136662abb111a9793b415f0",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.H.png"
       ],
@@ -423,7 +423,7 @@
       "file": "info/info.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "75f5f9765acddf4b814e88367538e8a647f7daa63cc15f1ce19ca38bf7181308",
+      "sha256": "38759a35f2d23968d622aabb81537432d50ca4f3150a0ef5f99db7419e8b0f00",
       "qr_sources": [
         "reference/cards/qr/info.H.png"
       ],
@@ -435,13 +435,13 @@
       "file": "info/info-back.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1d55d1e33774eb9c94028dd4807a5c58d2cc3ee072e8a571ee52a3d32320d976"
+      "sha256": "33279cef0ad21118c0831e1fbd4503a0c2d7aefc1be6e522fefc66389289cfc6"
     },
     {
       "file": "action/action.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f6a442eb4bb04e6f5341705d77492f693127230d14fd16d679ee15e248a8a40a",
+      "sha256": "2f6a250fbcdd5840a64e50c75fbd184adfb738c6afe30246c851399bbebbca42",
       "qr_sources": [
         "reference/cards/qr/action_medicine.H.png",
         "reference/cards/qr/action_hospital.H.png",
@@ -457,13 +457,13 @@
       "file": "action/action-back.H.png",
       "width": 750,
       "height": 1050,
-      "sha256": "afa4ca3d0c874f6b039d1033030c46ba5609c27e8925464a7c001105962dc257"
+      "sha256": "7166f84c2f5b0fc61c39d29583f601c6e2a06bd8d543d07e1cb44e5787b24ff9"
     },
     {
       "file": "symptom/symptom.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "9e099316b2ce0c5b9f003790bc72244deeead991acbe238068bf753920e28de6",
+      "sha256": "04b5a111fa3a9a76cfbab558eea1d66f840e8a30160d5d618ca39d53cd905442",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.I.png"
       ],
@@ -475,7 +475,7 @@
       "file": "info/info.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "143f935a438cd2ee18df12e3d2b4fd9c0548683c2b747a0a13450349a487951c",
+      "sha256": "ac1ce7ae88c32f1868e1edbeae74b71e0af44c911c9e609025ebbb5fc932c176",
       "qr_sources": [
         "reference/cards/qr/info.I.png"
       ],
@@ -487,13 +487,13 @@
       "file": "info/info-back.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "28482c8d3d22dda511d0d49af7259eaef55b37d72a375d3e968f34c0d92e921f"
+      "sha256": "1433fb1ca15ac8e682b6351454daac64280715040cfd346f54ee7b2defa00245"
     },
     {
       "file": "action/action.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8969c5b3c2177f03b1e0f07849719733a2eeadf24adf048502dd8332e9541d44",
+      "sha256": "2825fbd358a29942e563f04e631709d53df2389bd3626970d8511b12fbe6ad81",
       "qr_sources": [
         "reference/cards/qr/action_medicine.I.png",
         "reference/cards/qr/action_hospital.I.png",
@@ -509,13 +509,13 @@
       "file": "action/action-back.I.png",
       "width": 750,
       "height": 1050,
-      "sha256": "72ba587e990b3f513b40dabd8fa39f0f76d52a1c4e12a8e135a4c784da5de534"
+      "sha256": "c2cf48bb631c72bc3df2621e89c3487aa3e8fe302b0c7f1815b0e78928f60f3f"
     },
     {
       "file": "symptom/symptom.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c6ee290cb7614e560633dedcdf4a270bca3535e926a5540ba4b0344146f6f046",
+      "sha256": "422c9180c261ade9f8a9d2dce90acfe3cacd228b93cb908c904e5152ac58c89d",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.J.png"
       ],
@@ -527,7 +527,7 @@
       "file": "info/info.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5464b4791e4eb0bfffa3a46c1acec82cc6608be825dadec150c63a829bd0624a",
+      "sha256": "4346564cae14d9a04032408591636291011970df57039bdd8590d9b8c8cef34e",
       "qr_sources": [
         "reference/cards/qr/info.J.png"
       ],
@@ -539,13 +539,13 @@
       "file": "info/info-back.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e52aa5d4ac8e5f2089e9f35383daa82661735c663280129aba1b793c5861cde3"
+      "sha256": "53df00daad5e5c959001aa13af09c004eb2977474dc1633a1d2d85d300a6d1ce"
     },
     {
       "file": "action/action.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "33a317e7ee7efb4e5769e7494f88587cc146f1857822c9f93507de54ffe5bd36",
+      "sha256": "3c6b2769df8b82645a0acf781352bf536badd4ba4ee427ab0e95a49329758ba3",
       "qr_sources": [
         "reference/cards/qr/action_medicine.J.png",
         "reference/cards/qr/action_hospital.J.png",
@@ -561,13 +561,13 @@
       "file": "action/action-back.J.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f097a344db7b5123d7f12a048273ac6c1044305abf22deaed6991375260612b5"
+      "sha256": "7ceb95e0cb6e9d53fad9ed117d4f06bef7eb6ea3a79d4d9169cbd179ad06a016"
     },
     {
       "file": "symptom/symptom.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "98cca7b83764a7cb08e9d0d24f83131152faa0803505f5e69085df10bc59cf65",
+      "sha256": "cf52dbeaae782f978c11aa2afaca14f4303e9ef1f653192c1faee39daf695ae5",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.K.png"
       ],
@@ -579,7 +579,7 @@
       "file": "info/info.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1a2d1beb3eb89209a2944c68973c52af7f0b02f55470146101dfc61dd1fafa0a",
+      "sha256": "6ae5d2fdd65a1784cfcc3c5c7aa4925b963dc1280360bec5d71904aff6483a17",
       "qr_sources": [
         "reference/cards/qr/info.K.png"
       ],
@@ -591,13 +591,13 @@
       "file": "info/info-back.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1bd7e4fbb4c2459ea75c0cc45f82cd7e631fd6376f84a745b0cf91e8028e238d"
+      "sha256": "9b7d298489bb1337ef16e04cd3b5cf79b5a7c0b47907bf1e306cbdf8f452553e"
     },
     {
       "file": "action/action.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5a1cdfaeb3250ce811f0e0a65f2be0cc803541ca3a90b172649dc6f03b62f69e",
+      "sha256": "03cdd6fa82167cf29b413157c9ad858efabca2c322a430fe9d3784d56c5d4d4e",
       "qr_sources": [
         "reference/cards/qr/action_medicine.K.png",
         "reference/cards/qr/action_hospital.K.png",
@@ -613,13 +613,13 @@
       "file": "action/action-back.K.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ebc8fc4c75d39f76b20ebf641cf49d23ecc87a0b0be39a4b00444ae08e5e653d"
+      "sha256": "a6a9d4fe2d45028096517a8669f616ce304659a622b5e60a016717a4592c0c68"
     },
     {
       "file": "symptom/symptom.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "1dd09f38b4d90e61a5c404cbf1a2cf7a976cc83e98d3758c5edaf6a12797476d",
+      "sha256": "387eb3efe36241c8b0f0f01adae19cc3cb86230c237c78c11977f4b11c362402",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.L.png"
       ],
@@ -631,7 +631,7 @@
       "file": "info/info.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "aae5b874b4a7ff0b04bf4730b9f2ca7720f8c1036c22ce8549b7a65423f80b1d",
+      "sha256": "5589e1e0c9d8dc07d75c50cd6fe414865d87af221173445fa0a79056656f3b70",
       "qr_sources": [
         "reference/cards/qr/info.L.png"
       ],
@@ -643,13 +643,13 @@
       "file": "info/info-back.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "35c8b6a019e97decbf21e95de8b6611ea4b1a240b012c41683e4bec59fa91ae8"
+      "sha256": "2df1979bbaada826041c864afeaaf47f2473358d13b032f4b88366f63f0b495b"
     },
     {
       "file": "action/action.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "dec634428f1f77fe191dd25bd3432cbe8d90fcf329d7756f52d681c753bf1f4b",
+      "sha256": "3e087a389d15da17766bee9449ad6b1d2f68801d1dee3f46e9eb71403e7b901e",
       "qr_sources": [
         "reference/cards/qr/action_medicine.L.png",
         "reference/cards/qr/action_hospital.L.png",
@@ -665,13 +665,13 @@
       "file": "action/action-back.L.png",
       "width": 750,
       "height": 1050,
-      "sha256": "3e8643472eeefd6eac704926abe2870c382f3e262ed5e4ba7bfca916d14224f4"
+      "sha256": "245da7ad291b8614c2580f3dee74f1d465b65ca76e1de7b4eedfec48af72d8d2"
     },
     {
       "file": "symptom/symptom.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "8c817fd7f92711547e59fc368090dd230760bf1fd6d6e25fb61e9c41568b68d4",
+      "sha256": "8c08d0d8cf9d91467c1ff535c0fe60b0ecb056cb6272f4e4e075559874e55794",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.M.png"
       ],
@@ -683,7 +683,7 @@
       "file": "info/info.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "5585e9ad87158d10f11e75d91957f9844ffcaffac39bdf8de6eef69a485d52dd",
+      "sha256": "0750e5ce4d2c7c37053eff1e095998475bfca5fda36bf9eaf1c19e2126055489",
       "qr_sources": [
         "reference/cards/qr/info.M.png"
       ],
@@ -695,13 +695,13 @@
       "file": "info/info-back.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "bc08a66d19caf94e7abe84716293eed0e0325b9d8c9539fec117395e19480418"
+      "sha256": "7d0c7c28bc2be1a59091dbded26a2966ba3d835077266bc36a12bd68d537f300"
     },
     {
       "file": "action/action.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "d932d3f8a50d3979a645ba4e3b8fcd0e4b3f523ac7d24d60194d13b643659ebc",
+      "sha256": "b6de24454ecbcc476fa4e5ac53849ad7718e84c7aefd634d6362f436cebf3431",
       "qr_sources": [
         "reference/cards/qr/action_medicine.M.png",
         "reference/cards/qr/action_hospital.M.png",
@@ -717,13 +717,13 @@
       "file": "action/action-back.M.png",
       "width": 750,
       "height": 1050,
-      "sha256": "4a99c9a3adddb2e24fe09d30cc0592690e14443af1bf171c7d3dc4ec0ca8b2ea"
+      "sha256": "fe21459019ba65e9ccc159202ac2efcc30f53744cdb49bd5d9c0ebda17339a73"
     },
     {
       "file": "symptom/symptom.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "b1f4a5e444effc1e40e363c9e51bca5932b942172252fce974f97768e84ab7d8",
+      "sha256": "878f66f77056f956fcec06a9a1cc08329d8d92113e32514e46a9462e0d3d7169",
       "illustration_sources": [
         "assets/cards/symptom/illustrations/symptom.N.png"
       ],
@@ -735,7 +735,7 @@
       "file": "info/info.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7167b574a9efaa1a4962c31f85fc55673cc3b0725b88d95e672a91699456c7ce",
+      "sha256": "01866d14be84306458f29c406741152876327eb6c0a3efc0007d073bfe65f4cb",
       "qr_sources": [
         "reference/cards/qr/info.N.png"
       ],
@@ -747,13 +747,13 @@
       "file": "info/info-back.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "3922b576a61d9eb9b894879b35e4631832422ff399832e75c39da03554424809"
+      "sha256": "0d99b07db0bde7d33b001ccb6ecfb8441224c2a7dc3baa02873a5c2b188556c4"
     },
     {
       "file": "action/action.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "c3b54fe957c1942e65a8e1f5d1405b2709b55ead5fe88f216df26c73aa2348ca",
+      "sha256": "465ded251604cb122ac9141c35d762d2748e124bca0abcf0090295593da627a3",
       "qr_sources": [
         "reference/cards/qr/action_medicine.N.png",
         "reference/cards/qr/action_hospital.N.png",
@@ -769,19 +769,19 @@
       "file": "action/action-back.N.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ec60d5ea7a90e9971b71f3e4f6f7a68ee744955a52681fc15c80d5ebbe0ce40d"
+      "sha256": "4700465babf53df2c93de403d8044333a18df6d2158df067df6b4b6d1e84a659"
     },
     {
       "file": "symptom/symptom.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "9d746e32c21be1d260c363bc1a07f771623b59ebf4585511f84d04d1a0ac20d1"
+      "sha256": "d2fb9f6be6f5c0f6540ec045a8b9c2d2548a6e7836b5f843cfcdd15ea6b32279"
     },
     {
       "file": "event/event.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "e51ec63760bce43d8d6f76201e8c67f5193f1f30e1f57146c9bd81c5c8cb078d",
+      "sha256": "911d77fad15d96b08becf17b9779c2e0c0b3320cca3d50d40567cce773131054",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.01.png"
       ],
@@ -793,7 +793,7 @@
       "file": "event/event.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "782cf24f058c4f00823bf80e178bb5d04a07bebed6192e6a5ca27422279bdc8e",
+      "sha256": "ff2a60150f8cfb8f50d3c1e6c72a4d2d216155a4dd4b44a2b8e026f6ec6cb3d6",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.02.png"
       ],
@@ -805,7 +805,7 @@
       "file": "event/event.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "7af35282191a56739965ac3f6599f597f63c6a1be5afd78eb764bcb6b34b7d93",
+      "sha256": "cb483a898e09e829d38513e736d4947fcae802e4e1e13c7f1ed66a6461fac8a9",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.03.png"
       ],
@@ -817,7 +817,7 @@
       "file": "event/event.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "643afdb64d094a422d4e19226d6cab2c46b5d9d5d2add3e89ef04e07aa4e627d",
+      "sha256": "4837b855353ee93eb0d1a5cf8dece2dfe910b3d7ef640108e2fef75b2ff3918c",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.04.png"
       ],
@@ -829,7 +829,7 @@
       "file": "event/event.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f4d9e808bda97c77a0a51de84ee995e7b01e8e5d510c9327447aa7a1ee7a4fa3",
+      "sha256": "c5d009b0d1c5b5102f65a7a76f9f8c1d96bc6f48d8894186215d7d530372efc8",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.05.png"
       ],
@@ -841,7 +841,7 @@
       "file": "event/event.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2dd6da939cd52274f2f4ced9990be06e5bb555658464c8000555e56d97b1ad29",
+      "sha256": "7feea7ab5043b6ed833b90d5e6beffd8bb36ef1b8d8691fe48ef1244d052709d",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.06.png"
       ],
@@ -853,7 +853,7 @@
       "file": "event/event.07.png",
       "width": 750,
       "height": 1050,
-      "sha256": "736ea9905aeb099837f48a863899dc14bd31d1bb625ca148bd0a43e3244cba19",
+      "sha256": "cfa760f628144753d88dd398b4adb25c86db993f269452715b621a2bd6281320",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.07.png"
       ],
@@ -865,7 +865,7 @@
       "file": "event/event.08.png",
       "width": 750,
       "height": 1050,
-      "sha256": "81660e6e26df1024b059610036bf714a1c66eda7adc604a6d6acb5b86f0a387b",
+      "sha256": "6d3a81c317eb7aae922889a341bd027290c7a23dcd5bd7994e06597a3ee84a31",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.08.png"
       ],
@@ -877,7 +877,7 @@
       "file": "event/event.09.png",
       "width": 750,
       "height": 1050,
-      "sha256": "51f9c19457ff1efcd8f214446b34059671ddb5c7a5dfe859480bc3fe5762facf",
+      "sha256": "0a98c50ad6b51039aaf238a6ff36ea4f1404101562a6cac9379f2527f1f93070",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.09.png"
       ],
@@ -889,7 +889,7 @@
       "file": "event/event.10.png",
       "width": 750,
       "height": 1050,
-      "sha256": "9c9d4faf4a089cb61c91e433030c5a93d510c91edc35b06333b0827df6d2e754",
+      "sha256": "55afc814bb4bd1bcbd463b1877997f709a5d97c26479fde143a7fee97c9e64f2",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.10.png"
       ],
@@ -901,7 +901,7 @@
       "file": "event/event.11.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2cadb545cf423e313cbc7c12203c753eaed55679f3c7da3587ba531ffeee9092",
+      "sha256": "52121758781ed7ac09b1d5c71bbf1686c8276ca6662459cd26cdc1eb2fc6006d",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.11.png"
       ],
@@ -913,7 +913,7 @@
       "file": "event/event.12.png",
       "width": 750,
       "height": 1050,
-      "sha256": "43a1a394b920759edc89c35ceeffa27b8436ee9aaa9ad42bb5771a68bb21a99e",
+      "sha256": "ea5dca1f6effd09b8b998754f694cc328c92af3335ff27a3a6669d92ebe01741",
       "illustration_sources": [
         "assets/cards/event/illustrations/event.12.png"
       ],
@@ -925,13 +925,13 @@
       "file": "event/event.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "152e2656f694bf0d86aadd2be5d83efbb21c932cafb7847debbb7287665278b2"
+      "sha256": "25dc00643ad0f85c8bf4dbe496cf8b1e628549d50f85eb66f8b3f3e54b3840fb"
     },
     {
       "file": "role/role.01.png",
       "width": 750,
       "height": 1050,
-      "sha256": "41367011011e534d13de3f01e8d1932409883f0a8f753d838e1e01fab83adf45",
+      "sha256": "7e02dd7e1377f82fbabfd56a44b6aa57a9ba037a5cb582e4ad808af82d982035",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.01.png"
       ],
@@ -943,7 +943,7 @@
       "file": "role/role.02.png",
       "width": 750,
       "height": 1050,
-      "sha256": "be82abc79fdafaed68a11ba9326bcbf82fc21d0cd8b1a50886ad154d58a49d11",
+      "sha256": "fd322c333549ac60cfd626aa380381d703cb00144bd2faebb4eed2a0bf2bab57",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.02.png"
       ],
@@ -955,7 +955,7 @@
       "file": "role/role.03.png",
       "width": 750,
       "height": 1050,
-      "sha256": "6a5520e4f4499e5fed581b7e504257463c10c7911f70d4541be6055c167b3b87",
+      "sha256": "3f5b20f332cc715cf11f8cad8ed849f6d47d2dc703821bbd68b378ce86fc59b7",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.03.png"
       ],
@@ -967,7 +967,7 @@
       "file": "role/role.04.png",
       "width": 750,
       "height": 1050,
-      "sha256": "3739a6dfed0eaa018e1d1a088286b6a149cfac73e9f34f8c3f89e69217d12c1c",
+      "sha256": "0317206409c531d403be36612b196e34b8932d0f962d85c11abfb3e11068a1d8",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.04.png"
       ],
@@ -979,7 +979,7 @@
       "file": "role/role.05.png",
       "width": 750,
       "height": 1050,
-      "sha256": "2ae4a67571411f59941f456dd301a6421f9a2fdeebc2278a21435da0584118af",
+      "sha256": "85d009e50814cc8f9da04fd8cd8100587487dcef8b8347487f17e5cd501d7fbf",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.05.png"
       ],
@@ -991,7 +991,7 @@
       "file": "role/role.06.png",
       "width": 750,
       "height": 1050,
-      "sha256": "a19e4b973683e7ac43d5396b97b47082b3e7bc391720e77971698c1f7ba8e664",
+      "sha256": "22ff78a19b0df4f4df127197a331e0a77368a64cad5e92dd0c80819d82f989b8",
       "illustration_sources": [
         "assets/cards/role/illustrations/role.06.png"
       ],
@@ -1003,7 +1003,7 @@
       "file": "role/role.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "f7a1e8e5dbf230685507e4a1ac780bb354491832d631adc2e31d2ad757513a6f"
+      "sha256": "3c3011f0af238732503e71c299027d1b938c137aa27be3c6aa4302543ed1564f"
     },
     {
       "file": "reset/reset.front.png",
@@ -1021,7 +1021,7 @@
       "file": "reset/reset.back.png",
       "width": 750,
       "height": 1050,
-      "sha256": "ed23f5992027f24e3f8793ae51916e41661ec282f86a0637433f453463378a21"
+      "sha256": "cc5e6e7b7b9b9c82f3083ae81216ef5874de96eac1142ce8d269a5cf45359637"
     }
   ]
 }
