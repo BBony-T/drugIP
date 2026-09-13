@@ -12,16 +12,23 @@
   "fonts": [
     {
       "name": "여기어때 잘난체",
-      "usage": "display titles except event and role cards",
+      "usage": "display titles except event, role and card backs",
       "license": "commercial use permitted",
       "source": "https://www.goodchoice.kr/font"
     },
     {
       "name": "배달의민족 기랑해랑체",
-      "usage": "event and role titles and quotes",
+      "usage": "event and role titles and quotes; all card-back titles",
       "license": "SIL Open Font License 1.1; commercial use permitted",
       "source": "https://www.woowahan.com/fonts",
       "license_file": "assets/fonts/BMKIRANGHAERANG-LICENSE.md"
+    },
+    {
+      "name": "Yeon Sung",
+      "usage": "reset-card front title and instructions",
+      "license": "SIL Open Font License 1.1; commercial use permitted",
+      "source": "https://github.com/google/fonts/tree/main/ofl/yeonsung",
+      "license_file": "assets/fonts/YeonSung-OFL.txt"
     },
     {
       "name": "NanumMyeongjo",
@@ -997,6 +1004,24 @@
       "width": 750,
       "height": 1050,
       "sha256": "6e6927918c71932bc59569e4d649257204dd29deb5a25d1ade335ac05bf262ad"
+    },
+    {
+      "file": "reset/reset.front.png",
+      "width": 750,
+      "height": 1050,
+      "sha256": "4529b42cdb6e3c25c2b4cb67fc088292ac162b6e9d5749ae7e0b4d75e3c3b552",
+      "qr_sources": [
+        "assets/cards/reset/reset-qr.png"
+      ],
+      "qr_sha256": [
+        "5113f9a8717c4a7f42632af604ccc4931dc269e35e749005448ccbff1903de5d"
+      ]
+    },
+    {
+      "file": "reset/reset.back.png",
+      "width": 750,
+      "height": 1050,
+      "sha256": "62d632cbe1f24611502832859b9e30fb750b385f4e5181d03784156e88d3d0ce"
     }
   ]
 }
