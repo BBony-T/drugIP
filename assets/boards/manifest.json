@@ -13,18 +13,13 @@
   "fonts": [
     {
       "name": "배달의민족 기랑해랑체",
-      "usage": "time, deck and number labels",
+      "usage": "time, deck and number labels; creator credit",
       "license": "SIL Open Font License 1.1"
     },
     {
       "name": "여기어때 잘난체",
       "usage": "storage labels",
       "license": "commercial use permitted"
-    },
-    {
-      "name": "Noto Sans KR",
-      "usage": "creator credit",
-      "license": "SIL Open Font License"
     }
   ],
   "files": [
@@ -33,14 +28,14 @@
       "width": 3508,
       "height": 2480,
       "dpi": 300,
-      "sha256": "ed4f2225b02f910441236bfbf2b3f8e4b81aae49c7eda58c07072ea264ff9ed3"
+      "sha256": "131944e26a09589fac2249e7e5a4df15034ec792fc124e12000e9046c94199e5"
     },
     {
       "file": "heart-board.png",
       "width": 3508,
       "height": 2480,
       "dpi": 300,
-      "sha256": "65e365046e1a78c6b8aae5d26892dbb4150438926a4e40bbb080e03381558f7f"
+      "sha256": "e2fbf19f0087a644657459ef247b9fe2e974aac6dc440a93270fce7b9036aa28"
     }
   ]
 }
